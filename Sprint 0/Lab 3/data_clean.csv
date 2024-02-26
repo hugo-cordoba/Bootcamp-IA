@@ -1,0 +1,722 @@
+fecha,id_producto,ventas_unidades,precio,nombre
+2019-01-07,2033,1862,2.44,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-01-07,240,1015,2.3,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-01-07,5684,317,3.7,DIA Helado Fresa Tarrina 1kg
+2019-01-07,101,208,3.93,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-01-07,3636,160,2.6,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-01-07,5019,132,2.45,DIA Helado Dulce de Leche Tarrina 500 g
+2019-01-07,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-01-14,2033,1389,2.4,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-01-14,240,873,2.29,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-01-14,5684,313,3.56,DIA Helado Fresa Tarrina 1kg
+2019-01-14,101,187,3.82,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-01-14,3636,169,2.57,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-01-14,5019,121,2.44,DIA Helado Dulce de Leche Tarrina 500 g
+2019-01-14,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-01-21,2033,1340,2.45,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-01-21,240,785,2.28,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-01-21,101,303,3.66,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-01-21,5684,270,3.5,DIA Helado Fresa Tarrina 1kg
+2019-01-21,3636,167,2.6,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-01-21,5019,87,2.43,DIA Helado Dulce de Leche Tarrina 500 g
+2019-01-21,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-01-28,2033,1473,2.39,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-01-28,240,984,2.24,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-01-28,5684,266,3.69,DIA Helado Fresa Tarrina 1kg
+2019-01-28,3636,190,2.6,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-01-28,5019,127,2.43,DIA Helado Dulce de Leche Tarrina 500 g
+2019-01-28,101,125,3.99,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-01-28,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-02-04,2033,1561,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-02-04,240,904,2.27,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-02-04,101,238,3.76,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-02-04,5684,206,3.94,DIA Helado Fresa Tarrina 1kg
+2019-02-04,3636,185,2.64,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-02-04,5019,117,2.47,DIA Helado Dulce de Leche Tarrina 500 g
+2019-02-04,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-02-11,2033,1593,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-02-11,240,832,2.31,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-02-11,5684,330,4.0,DIA Helado Fresa Tarrina 1kg
+2019-02-11,3636,161,2.67,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-02-11,101,150,4.04,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-02-11,5019,126,2.49,DIA Helado Dulce de Leche Tarrina 500 g
+2019-02-11,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-02-18,2033,1370,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-02-18,240,95300,2.32,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-02-18,5684,297,4.02,DIA Helado Fresa Tarrina 1kg
+2019-02-18,3636,208,2.67,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-02-18,101,170,3.96,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-02-18,5019,142,2.45,DIA Helado Dulce de Leche Tarrina 500 g
+2019-02-18,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-02-25,2033,1713,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-02-25,240,941,2.32,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-02-25,5684,319,3.99,DIA Helado Fresa Tarrina 1kg
+2019-02-25,3636,211,2.45,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-02-25,101,175,4.06,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-02-25,5019,99,2.47,DIA Helado Dulce de Leche Tarrina 500 g
+2019-02-25,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-03-04,2033,1906,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-03-04,240,696,2.34,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-03-04,3636,300,2.4,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-03-04,5684,280,3.93,DIA Helado Fresa Tarrina 1kg
+2019-03-04,101,182,3.94,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-03-04,5019,107,2.5,DIA Helado Dulce de Leche Tarrina 500 g
+2019-03-04,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-03-11,2033,1411,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-03-11,240,725,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-03-11,5684,292,3.92,DIA Helado Fresa Tarrina 1kg
+2019-03-11,3636,268,2.4,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-03-11,101,197,3.97,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-03-11,5019,144,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-03-11,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-03-18,2033,1454,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-03-18,240,847,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-03-18,3636,246,2.46,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-03-18,5684,234,3.9,DIA Helado Fresa Tarrina 1kg
+2019-03-18,101,178,4.06,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-03-18,5019,130,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-03-18,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-03-25,2033,1852,2.41,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-03-25,240,997,2.3,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-03-25,5684,335,3.56,DIA Helado Fresa Tarrina 1kg
+2019-03-25,3636,201,2.54,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-03-25,101,152,4.05,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-03-25,5019,104,2.47,DIA Helado Dulce de Leche Tarrina 500 g
+2019-03-25,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-04-01,2033,2730,2.39,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-04-01,240,1184,2.28,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-04-01,5684,566,3.42,DIA Helado Fresa Tarrina 1kg
+2019-04-01,101,228,4.01,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-04-01,3636,212,2.62,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-04-01,5019,166,2.46,DIA Helado Dulce de Leche Tarrina 500 g
+2019-04-01,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-04-08,2033,1901,2.42,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-04-08,240,953,2.31,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-04-08,5684,376,3.38,DIA Helado Fresa Tarrina 1kg
+2019-04-08,3636,228,2.67,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-04-08,101,219,3.99,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-04-08,5019,139,2.46,DIA Helado Dulce de Leche Tarrina 500 g
+2019-04-08,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-04-15,2033,1692,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-04-15,240,1076,2.31,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-04-15,5684,357,3.64,DIA Helado Fresa Tarrina 1kg
+2019-04-15,3636,170,2.7,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-04-15,101,148,4.07,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-04-15,5019,114,2.44,DIA Helado Dulce de Leche Tarrina 500 g
+2019-04-15,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-04-22,2033,1657,2.45,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-04-22,240,1089,2.31,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-04-22,5684,327,3.72,DIA Helado Fresa Tarrina 1kg
+2019-04-22,3636,256,2.57,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-04-22,101,207,4.07,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-04-22,5019,115,2.47,DIA Helado Dulce de Leche Tarrina 500 g
+2019-04-22,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-04-29,2033,1749,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-04-29,240,1195,2.33,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-04-29,5684,383,3.71,DIA Helado Fresa Tarrina 1kg
+2019-04-29,3636,336,2.47,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-04-29,101,228,3.97,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-04-29,5019,179,2.5,DIA Helado Dulce de Leche Tarrina 500 g
+2019-04-29,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-05-06,2033,2008,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-05-06,240,1196,2.36,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-05-06,3636,354,2.35,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-05-06,5684,311,3.75,DIA Helado Fresa Tarrina 1kg
+2019-05-06,101,280,3.96,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-05-06,5019,188,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-05-06,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-05-13,2033,2459,2.52,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-05-13,240,1163,2.36,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-05-13,5684,401,3.95,DIA Helado Fresa Tarrina 1kg
+2019-05-13,3636,330,2.41,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-05-13,101,309,3.93,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-05-13,5019,149,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-05-13,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-05-20,2033,1759,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-05-20,240,908,2.37,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-05-20,3636,345,2.4,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-05-20,5684,305,3.79,DIA Helado Fresa Tarrina 1kg
+2019-05-20,101,232,4.03,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-05-20,5019,190,2.53,DIA Helado Dulce de Leche Tarrina 500 g
+2019-05-20,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-05-27,2033,1963,2.51,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-05-27,240,912,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-05-27,5684,353,3.86,DIA Helado Fresa Tarrina 1kg
+2019-05-27,3636,330,2.57,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-05-27,101,204,3.9,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-05-27,5019,162,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-05-27,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-06-03,2033,1823,2.56,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-06-03,240,1136,2.42,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-06-03,5684,405,3.93,DIA Helado Fresa Tarrina 1kg
+2019-06-03,3636,253,2.69,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-06-03,101,233,3.86,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-06-03,5019,163,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-06-03,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-06-10,2033,2099,2.53,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-06-10,240,1260,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-06-10,5684,344,3.92,DIA Helado Fresa Tarrina 1kg
+2019-06-10,3636,290,2.73,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-06-10,101,281,3.61,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-06-10,5019,157,2.44,DIA Helado Dulce de Leche Tarrina 500 g
+2019-06-10,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-06-17,2033,2061,2.49,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-06-17,240,962,2.34,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-06-17,5684,307,3.92,DIA Helado Fresa Tarrina 1kg
+2019-06-17,101,281,3.66,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-06-17,3636,279,2.73,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-06-17,5019,210,2.4,DIA Helado Dulce de Leche Tarrina 500 g
+2019-06-17,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-06-24,2033,2587,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-06-24,240,1284,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-06-24,5684,652,3.64,DIA Helado Fresa Tarrina 1kg
+2019-06-24,3636,400,2.67,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-06-24,101,362,3.73,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-06-24,5019,213,2.46,DIA Helado Dulce de Leche Tarrina 500 g
+2019-06-24,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-07-01,2033,3138,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-07-01,240,1407,2.43,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-07-01,5684,469,3.45,DIA Helado Fresa Tarrina 1kg
+2019-07-01,3636,384,2.55,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-07-01,101,348,3.97,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-07-01,5019,210,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2019-07-01,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-07-08,2033,3146,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-07-08,240,1322,2.43,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-07-08,5684,496,3.49,DIA Helado Fresa Tarrina 1kg
+2019-07-08,3636,410,2.56,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-07-08,101,345,4.02,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-07-08,5019,206,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-07-08,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-07-15,2033,2451,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-07-15,240,1668,2.42,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-07-15,5684,577,3.63,DIA Helado Fresa Tarrina 1kg
+2019-07-15,3636,386,2.38,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-07-15,101,288,4.01,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-07-15,5019,209,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-07-15,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-07-22,2033,2612,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-07-22,240,1229,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-07-22,5684,483,3.73,DIA Helado Fresa Tarrina 1kg
+2019-07-22,3636,471,2.36,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-07-22,101,270,3.99,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-07-22,5019,239,2.48,DIA Helado Dulce de Leche Tarrina 500 g
+2019-07-22,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-07-29,2033,2434,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-07-29,240,1420,2.35,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-07-29,5684,443,3.69,DIA Helado Fresa Tarrina 1kg
+2019-07-29,3636,408,2.49,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-07-29,101,274,3.85,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-07-29,5019,265,2.46,DIA Helado Dulce de Leche Tarrina 500 g
+2019-07-29,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-08-05,2033,3121,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-08-05,240,1686,2.35,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-08-05,5684,441,3.78,DIA Helado Fresa Tarrina 1kg
+2019-08-05,3636,440,2.62,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-08-05,101,409,3.66,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-08-05,5019,260,2.45,DIA Helado Dulce de Leche Tarrina 500 g
+2019-08-05,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-08-12,2033,2441,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-08-12,240,1750,2.3,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-08-12,5684,591,3.79,DIA Helado Fresa Tarrina 1kg
+2019-08-12,3636,429,2.71,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-08-12,101,285,4.01,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-08-12,5019,235,2.47,DIA Helado Dulce de Leche Tarrina 500 g
+2019-08-12,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-08-19,2033,2610,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-08-19,240,1422,2.29,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-08-19,5684,465,3.79,DIA Helado Fresa Tarrina 1kg
+2019-08-19,101,310,4.05,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-08-19,3636,274,2.77,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-08-19,5019,207,2.46,DIA Helado Dulce de Leche Tarrina 500 g
+2019-08-19,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-08-26,2033,2865,2.49,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-08-26,240,1358,2.37,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-08-26,5684,663,3.52,DIA Helado Fresa Tarrina 1kg
+2019-08-26,101,424,3.74,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-08-26,3636,345,2.64,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-08-26,5019,198,2.5,DIA Helado Dulce de Leche Tarrina 500 g
+2019-08-26,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-09-02,2033,2683,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-09-02,240,1212,2.44,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-09-02,5684,500,3.42,DIA Helado Fresa Tarrina 1kg
+2019-09-02,101,340,3.78,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-09-02,3636,298,2.58,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-09-02,5019,214,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2019-09-02,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-09-09,2033,2042,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-09-09,240,1110,2.43,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-09-09,5684,527,3.55,DIA Helado Fresa Tarrina 1kg
+2019-09-09,3636,303,2.67,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-09-09,101,273,3.71,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-09-09,5019,176,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2019-09-09,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-09-16,2033,2139,2.52,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-09-16,240,845,2.43,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-09-16,5684,445,3.73,DIA Helado Fresa Tarrina 1kg
+2019-09-16,101,284,3.65,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-09-16,3636,210,2.74,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-09-16,5019,173,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2019-09-16,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-09-23,2033,1736,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-09-23,240,956,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-09-23,5684,417,3.78,DIA Helado Fresa Tarrina 1kg
+2019-09-23,3636,291,2.7,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-09-23,101,230,3.66,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-09-23,5019,177,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2019-09-23,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-09-30,2033,1734,2.51,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-09-30,240,967,2.39,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-09-30,5684,309,3.77,DIA Helado Fresa Tarrina 1kg
+2019-09-30,3636,219,2.71,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-09-30,101,203,3.95,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-09-30,5019,159,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2019-09-30,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-10-07,2033,2210,2.54,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-10-07,240,969,2.39,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-10-07,5684,377,3.87,DIA Helado Fresa Tarrina 1kg
+2019-10-07,3636,309,2.75,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-10-07,5019,179,2.5,DIA Helado Dulce de Leche Tarrina 500 g
+2019-10-07,101,173,4.06,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-10-07,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-10-14,2033,1225,2.55,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-10-14,240,703,2.39,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-10-14,5684,325,3.87,DIA Helado Fresa Tarrina 1kg
+2019-10-14,3636,241,2.74,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-10-14,101,200,4.07,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-10-14,5019,138,2.5,DIA Helado Dulce de Leche Tarrina 500 g
+2019-10-14,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-10-21,2033,1732,2.58,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-10-21,240,699,2.37,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-10-21,5684,303,3.92,DIA Helado Fresa Tarrina 1kg
+2019-10-21,101,267,3.63,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-10-21,3636,242,2.73,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-10-21,5019,138,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2019-10-21,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-10-28,2033,1403,2.51,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-10-28,240,789,2.43,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-10-28,5684,418,3.69,DIA Helado Fresa Tarrina 1kg
+2019-10-28,3636,226,2.61,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-10-28,101,194,4.08,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-10-28,5019,134,2.53,DIA Helado Dulce de Leche Tarrina 500 g
+2019-10-28,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-11-04,2033,1815,2.54,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-11-04,240,655,2.47,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-11-04,5684,289,3.71,DIA Helado Fresa Tarrina 1kg
+2019-11-04,3636,243,2.54,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-11-04,101,211,4.04,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-11-04,5019,120,2.54,DIA Helado Dulce de Leche Tarrina 500 g
+2019-11-04,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-11-11,2033,1644,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-11-11,240,874,2.47,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-11-11,3636,326,2.43,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-11-11,5684,324,3.64,DIA Helado Fresa Tarrina 1kg
+2019-11-11,101,191,4.08,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-11-11,5019,143,2.54,DIA Helado Dulce de Leche Tarrina 500 g
+2019-11-11,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-11-18,2033,1455,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-11-18,240,740,2.45,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-11-18,5684,280,3.61,DIA Helado Fresa Tarrina 1kg
+2019-11-18,3636,217,2.48,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-11-18,101,174,4.09,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-11-18,5019,141,2.54,DIA Helado Dulce de Leche Tarrina 500 g
+2019-11-18,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-11-25,2033,1665,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-11-25,240,897,2.35,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-11-25,5684,313,3.62,DIA Helado Fresa Tarrina 1kg
+2019-11-25,3636,198,2.65,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-11-25,101,195,4.01,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-11-25,5019,92,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2019-11-25,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-12-02,2033,2054,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-12-02,240,868,2.33,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-12-02,5684,344,3.56,DIA Helado Fresa Tarrina 1kg
+2019-12-02,3636,287,2.71,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-12-02,101,232,3.92,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-12-02,5019,114,2.48,DIA Helado Dulce de Leche Tarrina 500 g
+2019-12-02,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-12-09,2033,2005,2.52,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-12-09,240,797,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-12-09,5684,314,3.52,DIA Helado Fresa Tarrina 1kg
+2019-12-09,3636,245,2.71,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-12-09,101,243,3.85,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-12-09,5019,136,2.49,DIA Helado Dulce de Leche Tarrina 500 g
+2019-12-09,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-12-16,2033,2045,2.49,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-12-16,240,1390,2.35,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-12-16,3636,440,2.72,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-12-16,5684,425,3.46,DIA Helado Fresa Tarrina 1kg
+2019-12-16,101,308,3.67,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-12-16,5019,153,2.47,DIA Helado Dulce de Leche Tarrina 500 g
+2019-12-16,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-12-23,2033,3574,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-12-23,240,1645,2.3,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-12-23,5684,716,3.7,DIA Helado Fresa Tarrina 1kg
+2019-12-23,101,596,3.65,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-12-23,3636,376,2.74,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-12-23,5019,132,2.44,DIA Helado Dulce de Leche Tarrina 500 g
+2019-12-23,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2019-12-30,2033,3329,2.43,CARTE D' OR Helado de yogur Tarrina 500 gr
+2019-12-30,240,1682,2.28,Helado Haagen Dazs Cookies Tarrina 400 g
+2019-12-30,5684,797,3.78,DIA Helado Fresa Tarrina 1kg
+2019-12-30,3636,437,2.65,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2019-12-30,101,389,3.69,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2019-12-30,5019,133,2.43,DIA Helado Dulce de Leche Tarrina 500 g
+2019-12-30,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-01-06,2033,1906,2.45,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-01-06,240,852,2.37,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-01-06,3636,348,2.34,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-01-06,5684,301,3.69,DIA Helado Fresa Tarrina 1kg
+2020-01-06,101,225,3.84,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-01-06,5019,136,2.5,DIA Helado Dulce de Leche Tarrina 500 g
+2020-01-06,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-01-13,2033,1762,2.49,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-01-13,240,623,2.47,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-01-13,3636,410,2.25,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-01-13,5684,259,3.79,DIA Helado Fresa Tarrina 1kg
+2020-01-13,101,183,4.02,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-01-13,5019,110,2.54,DIA Helado Dulce de Leche Tarrina 500 g
+2020-01-13,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-01-20,2033,1587,2.51,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-01-20,240,649,2.47,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-01-20,5684,323,3.68,DIA Helado Fresa Tarrina 1kg
+2020-01-20,3636,311,2.46,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-01-20,101,130,4.07,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-01-20,5019,110,2.55,DIA Helado Dulce de Leche Tarrina 500 g
+2020-01-20,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-01-27,2033,1684,2.55,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-01-27,240,675,2.46,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-01-27,5684,299,3.81,DIA Helado Fresa Tarrina 1kg
+2020-01-27,3636,299,2.55,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-01-27,101,153,4.06,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-01-27,5019,146,2.51,DIA Helado Dulce de Leche Tarrina 500 g
+2020-01-27,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-02-10,2033,1656,2.61,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-02-10,240,881,2.52,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-02-10,5684,358,3.86,DIA Helado Fresa Tarrina 1kg
+2020-02-10,3636,257,2.77,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-02-10,101,165,4.09,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-02-10,5019,118,2.56,DIA Helado Dulce de Leche Tarrina 500 g
+2020-02-10,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-02-17,2033,1612,2.66,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-02-17,240,568,2.58,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-02-17,5684,290,3.95,DIA Helado Fresa Tarrina 1kg
+2020-02-17,3636,199,2.78,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-02-17,101,158,4.11,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-02-17,5019,134,2.61,DIA Helado Dulce de Leche Tarrina 500 g
+2020-02-17,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-02-24,2033,1493,2.63,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-02-24,240,851,2.51,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-02-24,3636,296,2.74,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-02-24,5684,267,4.04,DIA Helado Fresa Tarrina 1kg
+2020-02-24,101,205,4.0,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-02-24,5019,171,2.59,DIA Helado Dulce de Leche Tarrina 500 g
+2020-02-24,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-03-02,2033,1355,2.58,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-03-02,240,881,2.45,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-03-02,5684,340,4.04,DIA Helado Fresa Tarrina 1kg
+2020-03-02,3636,216,2.7,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-03-02,101,161,4.0,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-03-02,5019,142,2.59,DIA Helado Dulce de Leche Tarrina 500 g
+2020-03-02,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-03-09,2033,1303,2.59,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-03-09,240,648,2.49,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-03-09,5684,299,4.0,DIA Helado Fresa Tarrina 1kg
+2020-03-09,3636,199,2.69,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-03-09,5019,163,2.58,DIA Helado Dulce de Leche Tarrina 500 g
+2020-03-09,101,139,3.99,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-03-09,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-03-16,2033,1497,2.57,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-03-16,240,747,2.45,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-03-16,5684,264,4.0,DIA Helado Fresa Tarrina 1kg
+2020-03-16,3636,217,2.72,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-03-16,101,199,3.7,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-03-16,5019,168,2.47,DIA Helado Dulce de Leche Tarrina 500 g
+2020-03-16,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-03-23,2033,1931,2.55,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-03-23,240,1057,2.43,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-03-23,5684,526,4.05,DIA Helado Fresa Tarrina 1kg
+2020-03-23,3636,369,2.73,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-03-23,101,243,3.67,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-03-23,5019,187,2.44,DIA Helado Dulce de Leche Tarrina 500 g
+2020-03-23,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-03-30,2033,1644,2.55,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-03-30,240,753,2.46,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-03-30,5684,389,3.91,DIA Helado Fresa Tarrina 1kg
+2020-03-30,3636,280,2.57,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-03-30,101,242,3.73,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-03-30,5019,186,2.46,DIA Helado Dulce de Leche Tarrina 500 g
+2020-03-30,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-04-06,2033,1681,2.62,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-04-06,240,880,2.6,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-04-06,5684,377,3.92,DIA Helado Fresa Tarrina 1kg
+2020-04-06,3636,268,2.56,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-04-06,101,201,4.03,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-04-06,5019,188,2.61,DIA Helado Dulce de Leche Tarrina 500 g
+2020-04-06,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-04-13,2033,1524,2.6,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-04-13,240,732,2.62,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-04-13,5684,410,3.95,DIA Helado Fresa Tarrina 1kg
+2020-04-13,3636,359,2.38,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-04-13,101,177,4.05,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-04-13,5019,161,2.64,DIA Helado Dulce de Leche Tarrina 500 g
+2020-04-13,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-04-20,2033,1416,2.58,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-04-20,240,732,2.61,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-04-20,5684,339,3.92,DIA Helado Fresa Tarrina 1kg
+2020-04-20,3636,290,2.34,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-04-20,101,241,3.92,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-04-20,5019,157,2.64,DIA Helado Dulce de Leche Tarrina 500 g
+2020-04-20,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-04-27,2033,1462,2.62,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-04-27,240,852,2.6,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-04-27,3636,402,2.5,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-04-27,5684,312,4.04,DIA Helado Fresa Tarrina 1kg
+2020-04-27,5019,216,2.63,DIA Helado Dulce de Leche Tarrina 500 g
+2020-04-27,101,184,4.05,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-04-27,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-05-04,2033,1545,2.67,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-05-04,240,982,2.61,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-05-04,5684,418,4.07,DIA Helado Fresa Tarrina 1kg
+2020-05-04,3636,297,2.65,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-05-04,101,211,3.99,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-05-04,5019,172,2.63,DIA Helado Dulce de Leche Tarrina 500 g
+2020-05-04,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-05-11,2033,1735,2.62,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-05-11,240,705,2.58,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-05-11,5684,359,4.14,DIA Helado Fresa Tarrina 1kg
+2020-05-11,3636,269,2.64,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-05-11,101,184,3.69,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-05-11,5019,177,2.6,DIA Helado Dulce de Leche Tarrina 500 g
+2020-05-11,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-05-18,2033,1742,2.62,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-05-18,240,951,2.58,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-05-18,5684,355,4.05,DIA Helado Fresa Tarrina 1kg
+2020-05-18,3636,244,2.74,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-05-18,101,235,3.54,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-05-18,5019,197,2.6,DIA Helado Dulce de Leche Tarrina 500 g
+2020-05-18,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-05-25,2033,1877,2.57,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-05-25,240,987,2.51,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-05-25,5684,502,3.89,DIA Helado Fresa Tarrina 1kg
+2020-05-25,101,279,3.61,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-05-25,3636,241,2.81,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-05-25,5019,202,2.53,DIA Helado Dulce de Leche Tarrina 500 g
+2020-05-25,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-06-01,2033,2017,2.52,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-06-01,240,891,2.46,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-06-01,5684,397,3.73,DIA Helado Fresa Tarrina 1kg
+2020-06-01,3636,285,2.8,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-06-01,101,276,3.54,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-06-01,5019,223,2.52,DIA Helado Dulce de Leche Tarrina 500 g
+2020-06-01,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-06-08,2033,1815,2.44,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-06-08,240,1085,2.46,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-06-08,5684,488,3.59,DIA Helado Fresa Tarrina 1kg
+2020-06-08,101,362,3.1,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-06-08,3636,334,2.76,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-06-08,5019,262,2.5,DIA Helado Dulce de Leche Tarrina 500 g
+2020-06-08,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-06-15,2033,2480,2.42,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-06-15,240,1002,2.47,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-06-15,5684,570,3.42,DIA Helado Fresa Tarrina 1kg
+2020-06-15,3636,274,2.66,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-06-15,5019,261,2.48,DIA Helado Dulce de Leche Tarrina 500 g
+2020-06-15,101,213,3.51,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-06-15,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-06-22,2033,2932,2.4,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-06-22,240,1076,2.52,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-06-22,5684,617,3.35,DIA Helado Fresa Tarrina 1kg
+2020-06-22,3636,477,2.55,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-06-22,101,373,3.32,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-06-22,5019,309,2.54,DIA Helado Dulce de Leche Tarrina 500 g
+2020-06-22,7118,0,,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-06-29,2033,2595,2.4,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-06-29,240,1167,2.53,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-06-29,5684,757,3.28,DIA Helado Fresa Tarrina 1kg
+2020-06-29,3636,356,2.5,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-06-29,101,332,3.29,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-06-29,5019,175,2.59,DIA Helado Dulce de Leche Tarrina 500 g
+2020-06-29,7118,139,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-07-06,2033,3122,2.39,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-07-06,240,1356,2.54,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-07-06,5684,736,3.32,DIA Helado Fresa Tarrina 1kg
+2020-07-06,3636,478,2.42,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-07-06,101,365,3.27,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-07-06,5019,157,2.59,DIA Helado Dulce de Leche Tarrina 500 g
+2020-07-06,7118,111,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-07-13,2033,3164,2.4,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-07-13,240,1214,2.44,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-07-13,5684,798,3.33,DIA Helado Fresa Tarrina 1kg
+2020-07-13,3636,519,2.49,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-07-13,101,267,3.89,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-07-13,5019,205,2.61,DIA Helado Dulce de Leche Tarrina 500 g
+2020-07-13,7118,152,2.2,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-07-20,2033,2967,2.39,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-07-20,240,1270,2.39,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-07-20,5684,691,3.35,DIA Helado Fresa Tarrina 1kg
+2020-07-20,3636,401,2.53,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-07-20,101,317,3.96,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-07-20,5019,189,2.6,DIA Helado Dulce de Leche Tarrina 500 g
+2020-07-20,7118,122,2.15,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-07-27,2033,2565,2.37,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-07-27,240,1318,2.31,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-07-27,5684,586,3.47,DIA Helado Fresa Tarrina 1kg
+2020-07-27,3636,556,2.48,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-07-27,101,245,3.87,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-07-27,5019,165,2.45,DIA Helado Dulce de Leche Tarrina 500 g
+2020-07-27,7118,116,2.15,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-08-03,2033,3627,2.34,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-08-03,240,1853,2.28,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-08-03,5684,635,3.53,DIA Helado Fresa Tarrina 1kg
+2020-08-03,3636,437,2.45,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-08-03,101,349,3.89,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-08-03,5019,201,2.32,DIA Helado Dulce de Leche Tarrina 500 g
+2020-08-03,7118,133,2.15,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-08-10,2033,3826,2.37,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-08-10,240,1454,2.3,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-08-10,5684,756,3.63,DIA Helado Fresa Tarrina 1kg
+2020-08-10,3636,515,2.44,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-08-10,101,326,3.94,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-08-10,5019,225,2.43,DIA Helado Dulce de Leche Tarrina 500 g
+2020-08-10,7118,129,2.15,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-08-17,2033,2578,2.39,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-08-17,240,1529,2.3,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-08-17,5684,550,3.69,DIA Helado Fresa Tarrina 1kg
+2020-08-17,3636,346,2.53,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-08-17,101,345,3.8,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-08-17,5019,211,2.48,DIA Helado Dulce de Leche Tarrina 500 g
+2020-08-17,7118,131,2.15,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-08-24,2033,2734,2.44,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-08-24,240,1500,2.44,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-08-24,5684,761,3.47,DIA Helado Fresa Tarrina 1kg
+2020-08-24,3636,457,2.66,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-08-24,101,298,3.89,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-08-24,5019,219,2.48,DIA Helado Dulce de Leche Tarrina 500 g
+2020-08-24,7118,125,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-08-31,2033,2392,2.43,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-08-31,240,1479,2.49,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-08-31,5684,580,3.28,DIA Helado Fresa Tarrina 1kg
+2020-08-31,3636,449,2.61,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-08-31,101,260,3.77,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-08-31,5019,181,2.58,DIA Helado Dulce de Leche Tarrina 500 g
+2020-08-31,7118,117,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-09-07,2033,2575,2.44,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-09-07,240,1382,2.51,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-09-07,5684,550,3.31,DIA Helado Fresa Tarrina 1kg
+2020-09-07,3636,384,2.6,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-09-07,101,280,3.9,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-09-07,5019,196,2.61,DIA Helado Dulce de Leche Tarrina 500 g
+2020-09-07,7118,135,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-09-14,2033,2118,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-09-14,240,1166,2.46,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-09-14,5684,530,3.51,DIA Helado Fresa Tarrina 1kg
+2020-09-14,3636,350,2.72,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-09-14,101,204,3.85,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-09-14,5019,167,2.57,DIA Helado Dulce de Leche Tarrina 500 g
+2020-09-14,7118,117,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-09-21,2033,1822,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-09-21,240,986,2.48,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-09-21,5684,378,3.59,DIA Helado Fresa Tarrina 1kg
+2020-09-21,3636,334,2.73,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-09-21,101,217,3.6,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-09-21,5019,136,2.6,DIA Helado Dulce de Leche Tarrina 500 g
+2020-09-21,7118,99,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-09-28,2033,1674,2.51,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-09-28,240,849,2.47,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-09-28,5684,502,3.68,DIA Helado Fresa Tarrina 1kg
+2020-09-28,3636,261,2.65,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-09-28,101,257,3.79,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-09-28,5019,155,2.53,DIA Helado Dulce de Leche Tarrina 500 g
+2020-09-28,7118,78,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-10-05,2033,1668,2.54,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-10-05,240,1099,2.45,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-10-05,5684,477,3.82,DIA Helado Fresa Tarrina 1kg
+2020-10-05,3636,280,2.78,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-10-05,101,213,4.04,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-10-05,5019,143,2.46,DIA Helado Dulce de Leche Tarrina 500 g
+2020-10-05,7118,80,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-10-12,2033,1668,2.49,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-10-12,240,916,2.39,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-10-12,5684,372,3.77,DIA Helado Fresa Tarrina 1kg
+2020-10-12,3636,213,2.72,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-10-12,101,212,4.02,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-10-12,5019,138,2.38,DIA Helado Dulce de Leche Tarrina 500 g
+2020-10-12,7118,83,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-10-19,2033,1799,2.42,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-10-19,240,752,2.28,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-10-19,5684,305,3.77,DIA Helado Fresa Tarrina 1kg
+2020-10-19,3636,222,2.66,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-10-19,101,151,4.08,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-10-19,5019,133,2.4,DIA Helado Dulce de Leche Tarrina 500 g
+2020-10-19,7118,88,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-10-26,2033,1890,2.48,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-10-26,240,754,2.44,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-10-26,5684,364,3.68,DIA Helado Fresa Tarrina 1kg
+2020-10-26,3636,297,2.58,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-10-26,101,222,3.77,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-10-26,5019,102,2.53,DIA Helado Dulce de Leche Tarrina 500 g
+2020-10-26,7118,93,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-11-02,2033,1565,2.49,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-11-02,240,835,2.5,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-11-02,5684,416,3.63,DIA Helado Fresa Tarrina 1kg
+2020-11-02,101,357,4.09,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-11-02,3636,307,2.51,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-11-02,7118,161,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-11-02,5019,156,2.58,DIA Helado Dulce de Leche Tarrina 500 g
+2020-11-09,2033,1804,2.47,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-11-09,240,814,2.49,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-11-09,5684,407,3.57,DIA Helado Fresa Tarrina 1kg
+2020-11-09,101,393,3.78,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-11-09,3636,317,2.46,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-11-09,5019,197,2.6,DIA Helado Dulce de Leche Tarrina 500 g
+2020-11-09,7118,169,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-11-16,2033,1454,2.49,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-11-16,240,852,2.48,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-11-16,5684,456,3.67,DIA Helado Fresa Tarrina 1kg
+2020-11-16,3636,372,2.53,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-11-16,101,282,3.89,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-11-16,7118,133,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-11-16,5019,130,2.54,DIA Helado Dulce de Leche Tarrina 500 g
+2020-11-23,2033,1581,2.45,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-11-23,240,879,2.37,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-11-23,5684,476,3.68,DIA Helado Fresa Tarrina 1kg
+2020-11-23,3636,345,2.56,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-11-23,101,245,3.84,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-11-23,5019,135,2.44,DIA Helado Dulce de Leche Tarrina 500 g
+2020-11-23,7118,123,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-11-30,2033,1778,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-11-30,240,936,2.38,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-11-30,5684,497,3.55,DIA Helado Fresa Tarrina 1kg
+2020-11-30,3636,300,2.62,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-11-30,7118,239,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-11-30,101,239,3.87,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-11-30,5019,155,2.42,DIA Helado Dulce de Leche Tarrina 500 g
+2020-12-07,2033,2582,2.46,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-12-07,240,1049,2.35,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-12-07,5684,519,3.57,DIA Helado Fresa Tarrina 1kg
+2020-12-07,101,384,3.46,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-12-07,3636,349,2.68,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-12-07,7118,262,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-12-07,5019,191,2.35,DIA Helado Dulce de Leche Tarrina 500 g
+2020-12-14,2033,1796,2.5,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-12-14,240,1327,2.35,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-12-14,5684,914,3.66,DIA Helado Fresa Tarrina 1kg
+2020-12-14,101,658,3.48,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-12-14,3636,394,2.75,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-12-14,5019,257,2.35,DIA Helado Dulce de Leche Tarrina 500 g
+2020-12-14,7118,220,2.49,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-12-21,2033,1738,2.45,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-12-21,240,1679,2.25,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-12-21,5684,746,3.87,DIA Helado Fresa Tarrina 1kg
+2020-12-21,101,679,3.51,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-12-21,3636,385,2.77,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-12-21,7118,352,2.18,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-12-21,5019,274,2.41,DIA Helado Dulce de Leche Tarrina 500 g
+2020-12-28,240,1786,2.31,Helado Haagen Dazs Cookies Tarrina 400 g
+2020-12-28,2033,1697,2.45,CARTE D' OR Helado de yogur Tarrina 500 gr
+2020-12-28,5684,854,3.96,DIA Helado Fresa Tarrina 1kg
+2020-12-28,101,758,3.31,MAGNUM Helado White Chocolate & Cookies Tarrina 300 gr
+2020-12-28,3636,401,2.68,CARTE D' OR Helado Stracciatella Tarrina 500 gr
+2020-12-28,7118,344,2.15,Haagen Dazs Helado Fresa Tarrina 400 g
+2020-12-28,5019,250,2.42,DIA Helado Dulce de Leche Tarrina 500 g
