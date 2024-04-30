@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     links.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
             const sectionId = this.getAttribute('href').substring(1);
             setActiveSection(sectionId);
         });

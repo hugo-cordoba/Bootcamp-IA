@@ -26,42 +26,44 @@
             <!-- LISTA DE APLICACIONES -->
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
-                    <a id="generar_imagenes" href="/generar_imagenes" class="sidebar-link">
-                        <i class="lni lni-user"></i>
+                    <a href="#generar-imagenes" class="sidebar-link">
                         <span>GENERAR IMAGENES</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a id="analisis_comentarios" href="/analisis_comentarios" class="sidebar-link">
+                    <a href="#analisis-comentarios" class="sidebar-link">
                         <i class="lni lni-agenda"></i>
                         <span>ANALISIS DE COMENTARIOS</span>
                     </a>
                 </li>
-            </ul>  
+            </ul>            
         </div>
         <!-- PANTALLA PRINCIPAL -->
         <div class="back-main">
-            <div id="generar-imagenes" class="main">
-                <!-- Contenido para generar imágenes -->
-                
-                <div class="chat-display">
-                    {% if image_path %}
-                        <img src="{{ url_for('static', filename=image_path) }}" alt="Imagen Generada">
-                    {% endif %}
-                    <!-- Aquí se mostrarán las imágenes generadas como mensajes en el chat -->
-                </div>
-                <div class="form-container">
-                    <form class="form_send_prompt" action="/generar_imagenes" method="post">
-                        <input type="text" name="prompt" placeholder="Introduce un prompt" required>
-                        <input type="number" name="seed" placeholder="Semilla (opcional)">
-                        <button type="submit">Enviar</button>
-                    </form>
+            <!-- PANTALLA PRINCIPAL -->
+            <div class="back-main">
+                <div id="generar-imagenes" class="main">
+                    <!-- Contenido para generar imágenes -->
                     
+                    <div class="chat-display">
+                        {% if image_path %}
+                            <img src="{{ url_for('static', filename=image_path) }}" alt="Imagen Generada">
+                        {% endif %}
+                        <!-- Aquí se mostrarán las imágenes generadas como mensajes en el chat -->
+                    </div>
+                    <div class="form-container">
+                        <form class="form_send_prompt" action="/generar_imagenes" method="post">
+                            <input type="text" name="prompt" placeholder="Introduce un prompt" required>
+                            <input type="number" name="seed" placeholder="Semilla (opcional)">
+                            <button type="submit">Enviar</button>
+                        </form>
+                        
+                    </div>
                 </div>
-            </div>
-            <div id="analisis-comentarios" class="main" style="display:none;">
-                <!-- Contenido para análisis de comentarios -->
-                DIV 2 PRUEBAS
+                <div id="analisis-comentarios" class="main" style="display:none;">
+                    <!-- Contenido para análisis de comentarios -->
+                    DIV 2 PRUEBAS
+                </div>
             </div>
         </div>
     </div>
