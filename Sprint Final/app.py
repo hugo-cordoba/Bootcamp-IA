@@ -26,7 +26,7 @@ def generar_imagenes():
         
         image_dir = os.path.join(app.root_path, 'static', 'images')
         os.makedirs(image_dir, exist_ok=True)
-        filename = f"{prompt[10].replace(' ', '_')}_{seed}.png"
+        filename = f"{prompt[1].replace(' ', '_')}_{seed}.png"
         image_path = os.path.join(image_dir, filename)
         image = model(prompt, generator=generator).images[0]
         image.save(image_path)
