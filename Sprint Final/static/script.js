@@ -1,15 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
     const links = document.querySelectorAll('.sidebar-link');
 
-    // Inicialización para mostrar la sección por defecto
-    setActiveSection('generar-imagenes');
-
     links.forEach(link => {
         link.addEventListener('click', function(e) {
-            const sectionId = this.getAttribute('href').substring(1);
-            setActiveSection(sectionId);
+            e.preventDefault();
+            const sectionId = this.getAttribute('href').substring(1);  // Obtiene el ID de la sección
+            if (sectionId) {
+                window.history.pushState({ section: sectionId }, '', '/' + sectionId);  // Cambia la URL sin recargar
+                setActiveSection(sectionId);
+            }
         });
     });
+
+    window.onpopstate = function(event) {
+        // Maneja los cambios en el historial del navegador
+        if (event.state) {
+            setActiveSection(event.state.section);
+        }
+    };
 
     function setActiveSection(sectionId) {
         // Ocultar todas las secciones
@@ -21,9 +29,23 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             console.error("Section not found:", sectionId);
         }
-        // Activar el enlace correspondiente
-        links.forEach(lnk => lnk.classList.remove('active'));
-        document.querySelector(`a[href="#${sectionId}"]`).classList.add('active');
+        // Actualizar enlace activo
+        updateActiveLink(sectionId);
     }
-});
 
+    function updateActiveLink(activeId) {
+        links.forEach(link => {
+            const hrefSubstr = link.getAttribute('href').substring(1);
+            if(hrefSubstr === activeId) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    }
+
+    // Activa la sección inicial
+    const initialSection = 'generar-imagenes'; // Ajusta según la sección inicial deseada
+    window.history.replaceState({ section: initialSection }, '', '/' + initialSection);
+    setActiveSection(initialSection);
+});

@@ -11,7 +11,7 @@ def home():
     # Redirige a generar_imagenes por defecto
     return render_template('index.html', image_path=None)
 
-@app.route('/generar_imagenes', methods=['GET', 'POST'])
+@app.route('/generar-imagenes', methods=['GET', 'POST'])
 def generar_imagenes():
     if request.method == 'POST':
         prompt = request.form['prompt']
@@ -35,7 +35,7 @@ def generar_imagenes():
         return render_template('index.html', image_path=f'images/{filename}')
     return render_template('index.html', image_path=None)
 
-@app.route('/analisis_comentarios', methods=['GET', 'POST'])
+@app.route('/analisis-comentarios', methods=['GET', 'POST'])
 def analisis_comentarios():
     if request.method == 'POST':
         # Procesa y analiza comentarios aquí

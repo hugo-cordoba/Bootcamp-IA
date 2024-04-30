@@ -27,6 +27,7 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
                     <a href="#generar-imagenes" class="sidebar-link">
+                        <i class="lni lni-image"></i>
                         <span>GENERAR IMAGENES</span>
                     </a>
                 </li>
@@ -44,7 +45,6 @@
             <div class="back-main">
                 <div id="generar-imagenes" class="main">
                     <!-- Contenido para generar imágenes -->
-                    
                     <div class="chat-display">
                         {% if image_path %}
                             <img src="{{ url_for('static', filename=image_path) }}" alt="Imagen Generada">
@@ -52,7 +52,7 @@
                         <!-- Aquí se mostrarán las imágenes generadas como mensajes en el chat -->
                     </div>
                     <div class="form-container">
-                        <form class="form_send_prompt" action="/generar_imagenes" method="post">
+                        <form class="form_send_prompt" action="/generar-imagenes" method="post">
                             <input type="text" name="prompt" placeholder="Introduce un prompt" required>
                             <input type="number" name="seed" placeholder="Semilla (opcional)">
                             <button type="submit">Enviar</button>
