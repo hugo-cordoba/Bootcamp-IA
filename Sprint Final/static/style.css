@@ -130,7 +130,6 @@ a.sidebar-link:hover {
 }
 
 .form-container {
-    border: solid red ;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -154,3 +153,4 @@ button {
     border: none;
     cursor: pointer;
 }
+

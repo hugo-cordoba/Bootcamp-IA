@@ -15,25 +15,26 @@ def home():
 def generar_imagenes():
     if request.method == 'POST':
         prompt = request.form['prompt']
-        seed = request.form.get('seed')  # Opción para ingresar una semilla específica
+        seed = request.form.get('seed')
         
-        # REVISAR
-        
-        if seed is not None:
-            seed = int(seed)  # Asegúrate de que la semilla sea un entero
+        if seed is not '':
+            seed = int(seed)
         else:
-            seed = torch.randint(0, 2**32 - 1, (1,)).item()  # Genera una nueva semilla si no se proporciona
+            seed = torch.randint(0, 2**32 - 1, (1,)).item()
 
-        generator = torch.Generator("cuda").manual_seed(seed)  # Configura la semilla
+        generator = torch.Generator("cuda").manual_seed(seed)
         
         image_dir = os.path.join(app.root_path, 'static', 'images')
         os.makedirs(image_dir, exist_ok=True)
-        filename = f"{prompt.replace(' ', '_')}_{seed}.png"  # Guarda el nombre de archivo con la semilla
+        filename = f"{prompt[10].replace(' ', '_')}_{seed}.png"
         image_path = os.path.join(image_dir, filename)
-        image = model(prompt, generator=generator).images[0]  # Genera la imagen con la semilla controlada
+        image = model(prompt, generator=generator).images[0]
         image.save(image_path)
-        return render_template('index.html', image_path=f'images/{filename}')
+        
+        return render_template('index.html', image_path=f'images/{filename}', prompt=prompt)
+
     return render_template('index.html', image_path=None)
+
 
 @app.route('/analisis-comentarios', methods=['GET', 'POST'])
 def analisis_comentarios():
