@@ -53,5 +53,12 @@ def analisis_comentarios():
         pass
     return render_template('index.html', image_path=None)
 
+@app.route('/recomendacion-hastags', methods=['GET', 'POST'])
+def recomendacion_hastags():
+    if request.method == 'POST':
+        # Procesa y analiza comentarios aquí
+        pass
+    return render_template('index.html', image_path=None)
+
 if __name__ == '__main__':
     app.run(debug=True)
