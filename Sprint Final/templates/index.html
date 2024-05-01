@@ -54,9 +54,10 @@
                     </div>
                     <div class="form-container">
                         <form class="form_send_prompt" action="/generar-imagenes" method="post">
-                            <input type="text" name="prompt" placeholder="Introduce un prompt..." required>
-                            <input type="number" name="seed" placeholder="Semilla (opcional)">
-                            <button type="submit">Enviar</button>
+                            <input id="input-text" type="text" name="prompt" placeholder="Introduce un prompt..." required autocomplete="off">
+                            <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
+                            <i class="ti ti-minus-vertical"></i>
+                            <input id="input-seed" type="number" name="seed" placeholder="Semilla (opcional)">
                         </form>
                     </div>
                 </div>
