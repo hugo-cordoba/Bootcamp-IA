@@ -189,9 +189,13 @@ a.sidebar-link:hover {
     width: 10%;
     text-align: center;
     background-color: #F2F2F2;
-    cursor: pointer;
     border: 1px solid #E5E5E5;
     border-radius: 10px;
+}
+
+#input-seed:hover {
+    cursor: pointer;
+    border: 1px solid black;
 }
 
 /* Para Google Chrome, Safari y Edge */
@@ -211,4 +215,3 @@ input[type="number"]::-moz-focus-outer {
 input[type="number"]::-moz-focusring {
     border: 0; /* Elimina el anillo de enfoque en Firefox */
 }
-
