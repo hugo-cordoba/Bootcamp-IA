@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
-from diffusers import StableDiffusionPipeline
-from diffusers import DiffusionPipeline
+# from diffusers import StableDiffusionPipeline
+# from diffusers import DiffusionPipeline
 from diffusers import AutoPipelineForText2Image
 import os
 import torch
