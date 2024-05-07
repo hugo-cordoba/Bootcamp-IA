@@ -20,7 +20,7 @@ body {
 
 .wrapper {
     display: flex;
-    align-items: center;-
+    align-items: center;
     justify-content: flex-start;
     height: 100vh;
     background-color: white;
@@ -49,9 +49,8 @@ body {
 
 
 #sidebar {
-    /* background-color: #f8f6f7; */
     background-color: white;
-    border: solid #E5E5E5 0.1-['em;
+    border-right: solid #E5E5E5 0.1em;
     width: 17%;
     height: 100%;
     z-index: 1000;
@@ -83,8 +82,14 @@ body {
     font-weight: 500;
 }
 
+.sidebar-main {
+    border-top: 1px solid #E5E5E5;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 .sidebar-nav {
-    padding: 2rem 0px;
+    padding: 0px;
 }
 
 .sidebar-item {
@@ -116,7 +121,7 @@ a.sidebar-link {
 a.sidebar-link.active,
 a.sidebar-link:hover {
     /* background-color: #e6e3f6; */
-    background-color: #eaeaeb;
+    background-color: #eeefee;
     /* background-color: white; */
     color: black;
     border-radius: 10px;
