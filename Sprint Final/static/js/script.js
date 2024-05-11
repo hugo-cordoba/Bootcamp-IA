@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const links = document.querySelectorAll('.sidebar-link');
+    const activeSection = document.body.getAttribute('data-active-section');
+
+    // Establecer la sección activa al cargar
+    setActiveSection(activeSection);
 
     links.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -43,9 +47,4 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
-
-    // Activa la sección inicial
-    const initialSection = 'generar-imagenes'; // Ajusta según la sección inicial deseada
-    window.history.replaceState({ section: initialSection }, '', '/' + initialSection);
-    setActiveSection(initialSection);
 });

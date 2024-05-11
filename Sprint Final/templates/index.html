@@ -12,7 +12,7 @@
     <script src="../static/js/script.js"></script>
 </head>
 
-<body>
+<body data-active-section="{{ active_section }}">
     <div class="wrapper">
         <!-- BARRA LATERAL -->
         
@@ -71,12 +71,40 @@
                     </div>
                 </div>
                 
+
+
                 <div id="analisis-comentarios" class="main" style="display:none;">
                     <!-- Contenido para análisis de comentarios -->
-                    <div>
-                        ANALISIS DE COMENTARIOS
+                    <div class='form-analisis-comentarios'>
+                        <div class="chat-display">
+                            {% if instagram_comments %}
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Comentarios</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for comment in instagram_comments %}
+                                            <tr>
+                                                <td>{{ comment }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="form-container">
+                            <form class="form_send_prompt" action="/analisis-comentarios" method="post">
+                                <input id="input-text" type="text" name="instagram_url" placeholder="Introduce un url de instagram..." required autocomplete="off">
+                                <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
+                            </form>
+                        </div>
                     </div>
                 </div>
+
+
 
                 <div id="recomendacion-hastags" class="main" style="display:none;">
                     <!-- Contenido para análisis de comentarios -->
