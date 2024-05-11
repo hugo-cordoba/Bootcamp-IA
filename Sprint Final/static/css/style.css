@@ -23,7 +23,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    background-color: white;
+    background-color: #f0eef1;
 }
 
 .back-main{
@@ -49,26 +49,27 @@ body {
 
 
 #sidebar {
-    background-color: white;
-    border-right: solid #E5E5E5 0.1em;
+    background-color: #f0eef1;
     width: 17%;
     height: 100%;
     z-index: 1000;
     padding: 10px;
+    margin-right: -10px;
 }
 
 .sidebar-logo {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin: 3% 10px 0 10px;
     border-radius: 10px;
-    padding: 0px;
-    /* border: solid #E5E5E5 0.1em; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+
 }
 
 .sidebar-logo-square{
-    /* border: solid 0.1em red; */
     background-color: black;
     width: 13%;
     height: 30px;
@@ -76,20 +77,17 @@ body {
 }
 
 .sidebar-logo span {
-    /* border: solid 0.1em red; */
     color: black;
     font-size: 1.3rem;
     font-weight: 500;
 }
 
-.sidebar-main {
-    border-top: 1px solid #E5E5E5;
-    padding: 10px;
-    margin-top: 20px;
-}
-
 .sidebar-nav {
     padding: 0px;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+    border-radius: 10px;
+    height: 93.5%;
 }
 
 .sidebar-item {
@@ -100,15 +98,11 @@ body {
 }
 
 a.sidebar-link {
-    /* border: solid red 0.1em; */
     padding: 0.5rem 0.7rem;
     width: 100%;
-    /* margin-top: 0.5em; */
     color: black;
-    display: block;
     font-size: 0.85rem;
     font-weight: 600;
-    white-space: nowrap;
     display: flex;
     align-items: center;
 }
@@ -120,9 +114,7 @@ a.sidebar-link {
 
 a.sidebar-link.active,
 a.sidebar-link:hover {
-    /* background-color: #e6e3f6; */
-    background-color: #eeefee;
-    /* background-color: white; */
+    background-color: #f0eef1;
     color: black;
     border-radius: 10px;
 }
