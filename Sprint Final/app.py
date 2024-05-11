@@ -1,18 +1,20 @@
 from flask import Flask, request, render_template
 
-from generar_imagenes import generate_image
-
 app = Flask(__name__)
+
+from models.generar_imagenes import generate_image
+
 
 
 @app.errorhandler(500)
 def internal_error(error):
     return render_template('error.html'), 500
 
-# Redirige a generar_imagenes por defecto
 @app.route('/', methods=['GET'])
 def home():
+    # Redirige a generar_imagenes por defecto
     return render_template('index.html', image_path=None)
+
 
 @app.route('/generar-imagenes', methods=['GET', 'POST'])
 def generar_imagenes():
