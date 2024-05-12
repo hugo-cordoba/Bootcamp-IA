@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* Para Google Chrome, Safari y Edge */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Para Mozilla Firefox */
+input[type="number"]::-moz-focus-inner,
+input[type="number"]::-moz-focus-outer,
+input[type="number"]::-moz-focusring {
+    border: 0;
+}
+
 html, body {
     overflow-y: hidden;
 }
@@ -119,7 +133,6 @@ a.sidebar-link:hover {
     border-radius: 10px;
 }
 
-
 .chat-display {
     flex-grow: 1;
     overflow-y: auto;
@@ -209,20 +222,72 @@ a.sidebar-link:hover {
     border: 1px solid black;
 }
 
-/* Para Google Chrome, Safari y Edge */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none; /* Elimina el aspecto predeterminado */
-    margin: 0; /* Elimina el margen que ocuparían los botones */
+.chat-message-instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 85%;
+    height: 100%;
+    /* border: solid red;    */
 }
 
-/* Para Mozilla Firefox */
-input[type="number"]::-moz-focus-inner {
-    border: 0; /* Elimina el borde interior en Firefox */
+
+.instagram-post {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    width: 18%;
+    height: 48%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
 }
-input[type="number"]::-moz-focus-outer {
-    border: 0; /* Elimina el borde exterior en Firefox */
+
+.instagram-post iframe {
+    transform: scale(0.62);
+    transform-origin: center center;
 }
-input[type="number"]::-moz-focusring {
-    border: 0; /* Elimina el anillo de enfoque en Firefox */
+
+.table-instagram {
+    width: 100%;
+    height: 50%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
 }
+
+.table-instagram th, .table-instagram td {
+    border: 1px solid #E5E5E5;
+    padding: 8px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.table-instagram thead th {
+    background-color: #F3F3F3;
+    color: #99999a;
+}
+
+.table-instagram thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table-instagram thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.table-instagram tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.table-instagram tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+

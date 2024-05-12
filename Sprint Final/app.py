@@ -29,8 +29,8 @@ def generar_imagenes():
 def analisis_comentarios():
     if request.method == 'POST':
         instagram_url = request.form['instagram_url']
-        instagram_comments = load_comments(instagram_url)
-        return render_template('index.html', instagram_comments=instagram_comments, active_section='analisis-comentarios')
+        instagram_info = load_comments(instagram_url)
+        return render_template('index.html', instagram_url=instagram_url, instagram_info=instagram_info, active_section='analisis-comentarios')
     return render_template('index.html', instagram_comments=None, active_section='analisis-comentarios')
 
 

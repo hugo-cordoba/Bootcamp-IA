@@ -20,7 +20,12 @@ def load_comments(instagram_url):
 
     # Fetch and print Actor results from the run's dataset (if there are any)
     for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-        for dict_comments in item['latestComments']:            
-            comments.append(dict_comments.get('text'))
+        for dict_comments in item['latestComments']:
+            comments.append(
+                {
+                    'username':dict_comments.get('ownerUsername'),
+                    'comment':dict_comments.get('text')
+                }
+            )
     return comments
         

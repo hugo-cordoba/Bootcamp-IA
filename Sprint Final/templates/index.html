@@ -72,33 +72,45 @@
 
 
                 <div id="analisis-comentarios" class="main" style="display:none;">
-                    <!-- Contenido para análisis de comentarios -->
-                    <div class='form-analisis-comentarios'>
-                        <div class="chat-display">
-                            {% if instagram_comments %}
-                                <table class="table table-hover">
+                    <div class="chat-display">
+                        {% if instagram_info %}
+                            <div class="chat-message-instagram">
+                                <div class="instagram-post">
+                                    <blockquote class="instagram-media" data-instgrm-permalink={{ instagram_url }} data-instgrm-version="14" />
+                                    <script async src="//www.instagram.com/embed.js"></script>
+                                </div>
+
+                                <table class="table-instagram">
                                     <thead>
                                         <tr>
-                                            <th>Comentarios</th>
+                                            <th>Usuario</th>
+                                            <th>Comentario</th>
+                                            <th>Sentimiento</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {% for comment in instagram_comments %}
-                                            <tr>
-                                                <td>{{ comment }}</td>
-                                            </tr>
+                                        {% for info in instagram_info %}
+                                        <tr>
+                                            <td>{{ info['username'] }}</td>
+                                            <td>{{ info['comment'] }}</td>
+                                            <td> Positivo/Negativo</td>
+                                        </tr>
                                         {% endfor %}
                                     </tbody>
                                 </table>
-                            {% endif %}
-                        </div>
+                            </div>
+                        {% else %}
+                            <div class="chat-message-instagram">
+                                <p>No hay comentarios para mostrar.</p>
+                            </div>
+                        {% endif %}
+                    </div>                    
                         
-                        <div class="form-container">
-                            <form class="form_send_prompt" action="/analisis-comentarios" method="post">
-                                <input id="input-text" type="text" name="instagram_url" placeholder="Introduce un url de instagram..." required autocomplete="off">
-                                <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
-                            </form>
-                        </div>
+                    <div class="form-container">
+                        <form class="form_send_prompt" action="/analisis-comentarios" method="post">
+                            <input id="input-text" type="text" name="instagram_url" placeholder="Introduce un url de instagram..." required autocomplete="off">
+                            <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
+                        </form>
                     </div>
                 </div>
 
