@@ -57,11 +57,18 @@
                                 <p>{{ prompt }}</p> <!-- Muestra el mensaje del prompt -->
                                 <img src="{{ url_for('static', filename=image_path) }}" alt="Imagen Generada">
                             </div>
+                        {% else %}
+                            <div class="chat-message-instagram">
+                                <div class='mensaje-espera'>
+                                    <p>Introduce un prompt para generar una imagen</p>
+                                    <p><i class="ti ti-arrow-down"></i></p>
+                                </div>
+                            </div>
                         {% endif %}
                     </div>
                     <div class="form-container">
                         <form class="form_send_prompt" action="/generar-imagenes" method="post">
-                            <input id="input-text" type="text" name="prompt" placeholder="Introduce un prompt..." required autocomplete="off">
+                            <input id="input-text" type="text" name="prompt" placeholder="Introduce un prompt para generar una imagen..." required autocomplete="off">
                             <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
                             <i class="ti ti-minus-vertical"></i>
                             <input id="input-seed" type="number" name="seed" placeholder="Semilla (opcional)">
@@ -101,14 +108,17 @@
                             </div>
                         {% else %}
                             <div class="chat-message-instagram">
-                                <p>No hay comentarios para mostrar.</p>
+                                <div class='mensaje-espera'>
+                                    <p>Introduce una url de un post de Instagram</p>
+                                    <p><i class="ti ti-arrow-down"></i></p>
+                                </div>
                             </div>
                         {% endif %}
                     </div>                    
                         
                     <div class="form-container">
                         <form class="form_send_prompt" action="/analisis-comentarios" method="post">
-                            <input id="input-text" type="text" name="instagram_url" placeholder="Introduce un url de instagram..." required autocomplete="off">
+                            <input id="input-text" type="text" name="instagram_url" placeholder="Introduce una url de instagram..." required autocomplete="off">
                             <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
                         </form>
                     </div>

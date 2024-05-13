@@ -222,6 +222,16 @@ a.sidebar-link:hover {
     border: 1px solid black;
 }
 
+.mensaje-espera{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    color: #99999a;
+}
+
 .chat-message-instagram {
     display: flex;
     flex-direction: column;
@@ -229,9 +239,7 @@ a.sidebar-link:hover {
     align-items: stretch;
     width: 85%;
     height: 100%;
-    /* border: solid red;    */
 }
-
 
 .instagram-post {
     border: 1px solid #E5E5E5;
