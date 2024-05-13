@@ -82,10 +82,34 @@
                     <div class="chat-display">
                         {% if instagram_info %}
                             <div class="chat-message-instagram">
-                                <div class="instagram-post">
-                                    <blockquote class="instagram-media" data-instgrm-permalink={{ instagram_url }} data-instgrm-version="14" />
-                                    <script async src="//www.instagram.com/embed.js"></script>
+                                <div class="instagram-results">
+                                    <div class="instagram-post">
+                                        <blockquote class="instagram-media" data-instgrm-permalink="{{ instagram_url }}" data-instgrm-version="14"></blockquote>
+                                        <script async src="//www.instagram.com/embed.js"></script>
+                                    </div>
+                                    
+                                    <div class="sentiment-analysis">
+                                        <table class="table-instagram table-results">
+                                            <thead>
+                                                <tr>
+                                                    <th>Sentimiento más frecuente</th>
+                                                    <th>Positivos</th>
+                                                    <th>Neutros</th>
+                                                    <th>Negativos</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>{{ most_frequent }} ({{ percentages[most_frequent]|round(2) }}%)</td>
+                                                    <td>{{ percentages['Positivo']|round(2) }}%</td>
+                                                    <td>{{ percentages['Neutral']|round(2) }}%</td>
+                                                    <td>{{ percentages['Negativo']|round(2) }}%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
+                                
 
                                 <table class="table-instagram">
                                     <thead>

@@ -186,7 +186,6 @@ a.sidebar-link:hover {
     border: 1px solid #E5E5E5;
 }
 
-
 #input-text {
     flex-grow: 1;
     margin-right: 10px;
@@ -241,26 +240,53 @@ a.sidebar-link:hover {
     height: 100%;
 }
 
-.instagram-post {
-    border: 1px solid #E5E5E5;
-    border-radius: 10px;
-    width: 18%;
-    height: 48%;
+.instagram-results{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.instagram-post{
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 18%;
+    height: 100%;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
     background-color: #F3F3F3;
 }
 
 .instagram-post iframe {
-    transform: scale(0.62);
-    transform-origin: center center;
+    transform: scale(0.6);
+    transform-origin: center;
+}
+
+.sentiment-analysis{
+    width: 81%;
+}
+
+.table-results{
+    height: 100% !important;
+    font-size: 3rem !important;
+
+}
+
+.table-results th{
+    text-align: center !important;
+}
+
+.table-results td{
+    text-align: center !important;
+    font-size: 3rem !important;
 }
 
 .table-instagram {
     width: 100%;
-    height: 50%;
+    height: 53%;
     border-collapse: separate;
     border-spacing: 0;
     overflow: hidden;
@@ -294,8 +320,3 @@ a.sidebar-link:hover {
 .table-instagram tbody tr:last-child td:last-child {
     border-bottom-right-radius: 10px;
 }
-
-
-
-
-

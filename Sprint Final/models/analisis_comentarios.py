@@ -54,6 +54,7 @@ else:
         max_sequence_len = 100
 
 def load_comments(instagram_url):
+    sentiment_count = {'Positivo': 0, 'Neutral': 0, 'Negativo': 0}
     comments = []
     run_input = {
         "directUrls": [instagram_url],
@@ -79,4 +80,11 @@ def load_comments(instagram_url):
                 'comment': text,
                 'sentiment': predicted_category
             })
-    return comments
+            sentiment_count[predicted_category] += 1
+    return comments, sentiment_count
+
+def calculate_percentage(sentiment_count):
+    total_comments = sum(sentiment_count.values())
+    percentages = {key: (value / total_comments) * 100 for key, value in sentiment_count.items()}
+    most_frequent = max(percentages, key=percentages.get)
+    return percentages, most_frequent

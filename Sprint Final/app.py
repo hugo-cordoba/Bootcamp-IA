@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 from models.generar_imagenes import generate_image
 from models.analisis_comentarios import load_comments
+from models.analisis_comentarios import calculate_percentage
 
 
 
@@ -29,10 +30,11 @@ def generar_imagenes():
 def analisis_comentarios():
     if request.method == 'POST':
         instagram_url = request.form['instagram_url']
-        instagram_info = load_comments(instagram_url)
-        return render_template('index.html', instagram_url=instagram_url, instagram_info=instagram_info, active_section='analisis-comentarios')
-    return render_template('index.html', instagram_comments=None, active_section='analisis-comentarios')
+        comments, sentiment_count = load_comments(instagram_url)
+        percentages, most_frequent = calculate_percentage(sentiment_count)
 
+        return render_template('index.html', instagram_info=comments, percentages=percentages, most_frequent=most_frequent, active_section='analisis-comentarios', instagram_url=instagram_url)
+    return render_template('index.html', instagram_info=None, active_section='analisis-comentarios')
 
 @app.route('/recomendacion-hastags', methods=['GET', 'POST'])
 def recomendacion_hastags():
