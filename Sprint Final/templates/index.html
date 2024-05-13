@@ -100,7 +100,20 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>{{ most_frequent }} ({{ percentages[most_frequent]|round(2) }}%)</td>
+                                                    <td class="{% if most_frequent == 'Positivo' %}positive{% elif most_frequent == 'Negativo' %}negative{% else %}neutral{% endif %}">
+                                                        <div class="sentiment-info">
+                                                            {{ most_frequent }}
+                                                        </div>
+                                                        <div class="sentiment-icon">
+                                                            {% if most_frequent == 'Positivo' %}
+                                                                <i class="ti ti-mood-happy"></i>
+                                                            {% elif most_frequent == 'Negativo' %}
+                                                                <i class="ti ti-mood-sad"></i>
+                                                            {% else %}
+                                                                <i class="ti ti-mood-neutral"></i>
+                                                            {% endif %}
+                                                        </div>
+                                                    </td>                                                                                                     
                                                     <td>{{ percentages['Positivo']|round(2) }}%</td>
                                                     <td>{{ percentages['Neutral']|round(2) }}%</td>
                                                     <td>{{ percentages['Negativo']|round(2) }}%</td>

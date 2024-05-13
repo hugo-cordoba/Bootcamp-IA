@@ -263,11 +263,34 @@ a.sidebar-link:hover {
 .instagram-post iframe {
     transform: scale(0.6);
     transform-origin: center;
+    margin-top: 10px;
 }
 
 .sentiment-analysis{
     width: 81%;
 }
+
+.sentiment-info, .sentiment-icon {
+    display: block;
+    text-align: center;
+}
+
+.sentiment-icon {
+    font-size: 8rem;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.neutral {
+    color: gray;
+}
+
 
 .table-results{
     height: 100% !important;
