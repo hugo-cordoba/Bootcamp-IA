@@ -33,15 +33,15 @@
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="#analisis-comentarios" class="sidebar-link">
-                        <i class="ti ti-scan"></i>
-                        <span>Analisis de comentarios</span>
+                    <a href="#recomendacion-hastags" class="sidebar-link">
+                        <i class="ti ti-ad"></i>
+                        <span>Recomendacion de hastags</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="#recomendacion-hastags" class="sidebar-link">
-                        <i class="ti ti-scan"></i>
-                        <span>Recomendacion de hastags</span>
+                    <a href="#analisis-comentarios" class="sidebar-link">
+                        <i class="ti ti-presentation-analytics"></i>
+                        <span>Analisis de comentarios</span>
                     </a>
                 </li>
             </ul>            
@@ -75,7 +75,45 @@
                         </form>
                     </div>
                 </div>
-                
+
+
+                <div id="recomendacion-hastags" class="main">
+                    <div class="form-container-image">
+                        <div class='image-div'>
+                            <div class='image-show'>
+                                {% if file_path %}
+                                    <img src="{{ url_for('static', filename=file_path) }}" alt="Imagen subida">
+                                {% else %}
+                                    <p>Selecciona una imagen</p>
+                                    <p><i class="ti ti-arrow-down"></i></p>
+                                {% endif %}
+                            </div>
+                            <div class='image-form'>
+                                <form class="form_upload_image" action="/recomendacion-hastags" method="post" enctype="multipart/form-data">
+                                    <input id="input-image" type="file" name="image" accept="image/*" required>
+                                    <button id="input-image-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="object-detection-results">
+                            {% if objects_detected %}
+                                <h3>Objetos detectados:</h3>
+                                <ul>
+                                    {% for obj in objects_detected %}
+                                        <li>{{ obj }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <p>No se ha detectado ningún objeto.</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="div-recomendacion-main">
+                        <div class="div-recomendacion">
+                            HASTAGS RECOMENDADOS:
+                        </div>
+                    </div>
+                </div>
 
 
                 <div id="analisis-comentarios" class="main" style="display:none;">
@@ -159,13 +197,6 @@
                             <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
                         </form>
                     </div>
-                </div>
-
-
-
-                <div id="recomendacion-hastags" class="main" style="display:none;">
-                    <!-- Contenido para análisis de comentarios -->
-                    Recomendacion de hastags
                 </div>
             </div>
         </div>

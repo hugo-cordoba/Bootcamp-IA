@@ -1,10 +1,14 @@
 from flask import Flask, request, render_template
+from werkzeug.utils import secure_filename
+
+import os
 
 app = Flask(__name__)
 
 from models.generar_imagenes import generate_image
 from models.analisis_comentarios import load_comments
 from models.analisis_comentarios import calculate_percentage
+from models.detectar_objetos import detectar_objetos_en_imagen 
 
 
 
@@ -39,9 +43,24 @@ def analisis_comentarios():
 @app.route('/recomendacion-hastags', methods=['GET', 'POST'])
 def recomendacion_hastags():
     if request.method == 'POST':
-        # Procesa y analiza comentarios aquí
-        pass
-    return render_template('index.html', image_path=None)
+        if 'image' not in request.files:
+            return render_template('index.html', image_path=None)
+        file = request.files['image']
+        if file.filename == '':
+            return render_template('index.html', image_path=None)
+        if file:
+            filename = secure_filename(file.filename)
+            filepath = os.path.join(app.root_path, 'static', 'images', filename)
+            file.save(filepath)
+
+            # Llama a la función de detección de objetos
+            objects_detected = detectar_objetos_en_imagen(filepath)
+            
+            # Esta ruta debe ser relativa a 'static'
+            uploaded_image_path = f'images/{filename}'
+            
+            return render_template('index.html', objects_detected=objects_detected, file_path=uploaded_image_path, active_section='recomendacion-hastags')
+    return render_template('index.html', image_path=None, active_section='recomendacion-hastags')
 
 if __name__ == '__main__':
     app.run(debug=True)
