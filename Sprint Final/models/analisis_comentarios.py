@@ -3,6 +3,7 @@ import pandas as pd
 import emoji
 import json
 import os
+import re
 
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer, tokenizer_from_json
@@ -76,6 +77,9 @@ max_sequence_len_2, tokenizer_2, model_2 = load_or_train_model(
 def emoji_to_unicode_name(em):
     return emoji.demojize(em)
 
+def contains_emoji_only(text):
+    return emoji.purely_emoji(text)
+
 def process_comments(comments, model, tokenizer, max_sequence_len):
     sentiment_count = {'Positivo': 0, 'Neutral': 0, 'Negativo': 0}
     processed_comments = []
@@ -100,6 +104,12 @@ def process_comments(comments, model, tokenizer, max_sequence_len):
     
     return processed_comments, sentiment_count
 
+def merge_sentiment_counts(count1, count2):
+    merged_count = count1.copy()
+    for key, value in count2.items():
+        merged_count[key] += value
+    return merged_count
+
 def load_comments(instagram_url):
     run_input = {
         "directUrls": [instagram_url],
@@ -113,13 +123,20 @@ def load_comments(instagram_url):
     all_comments = []
     for item in client.dataset(run["defaultDatasetId"]).iterate_items():
         all_comments.extend(item['latestComments'])
+
+    emoji_comments = [comment for comment in all_comments if contains_emoji_only(comment.get('text'))]
+    text_comments = [comment for comment in all_comments if not contains_emoji_only(comment.get('text'))]
     
-    # comments, sentiment_count = process_comments(all_comments, model_1, tokenizer_1, max_sequence_len_1)
-    comments, sentiment_count = process_comments(all_comments, model_2, tokenizer_2, max_sequence_len_2)
+
+    comments_text, sentiment_count_text = process_comments(text_comments, model_1, tokenizer_1, max_sequence_len_1)
+    comments_emoji, sentiment_count_emoji = process_comments(emoji_comments, model_2, tokenizer_2, max_sequence_len_2)
     
-    print(all_comments)
+    # Unir comentarios y conteos de sentimientos
+    combined_comments = comments_text + comments_emoji
+    combined_sentiment_count = merge_sentiment_counts(sentiment_count_text, sentiment_count_emoji)
+
+    return combined_comments, combined_sentiment_count
     
-    return comments, sentiment_count
 
 def calculate_percentage(sentiment_count):
     total_comments = sum(sentiment_count.values())
