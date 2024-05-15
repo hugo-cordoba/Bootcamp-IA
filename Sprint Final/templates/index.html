@@ -110,8 +110,24 @@
                     </div>
                     <div class="div-recomendacion-main">
                         <div class="div-recomendacion">
-                            HASTAGS RECOMENDADOS:
-                            <p>{{ hashtags }}</p>
+                            HASHTAGS RECOMENDADOS:
+                            <table>
+                                <tr>
+                                    {% for i in range(0, 5) %}
+                                        <th>Hashtag {{ i + 1 }}</th>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    {% for i in range(0, 5) %}
+                                        <td>{{ hashtags[i] }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    {% for i in range(5, 10) %}
+                                        <td>{{ hashtags[i] }}</td>
+                                    {% endfor %}
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
