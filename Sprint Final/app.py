@@ -9,6 +9,7 @@ from models.generar_imagenes import generate_image
 from models.analisis_comentarios import load_comments
 from models.analisis_comentarios import calculate_percentage
 from models.detectar_objetos import detectar_objetos_en_imagen 
+from models.detectar_objetos import get_message 
 
 
 
@@ -59,7 +60,9 @@ def recomendacion_hastags():
             # Esta ruta debe ser relativa a 'static'
             uploaded_image_path = f'images/{filename}'
             
-            return render_template('index.html', objects_detected=objects_detected, file_path=uploaded_image_path, active_section='recomendacion-hastags')
+            obtener_hashtags = get_message(objects_detected)
+            
+            return render_template('index.html', objects_detected=objects_detected, file_path=uploaded_image_path, hashtags=obtener_hashtags, active_section='recomendacion-hastags')
     return render_template('index.html', image_path=None, active_section='recomendacion-hastags')
 
 if __name__ == '__main__':
