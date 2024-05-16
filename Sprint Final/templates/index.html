@@ -79,62 +79,64 @@
 
                 <div id="recomendacion-hastags" class="main">
                     <div class="chat-display">
-                        <div class="form-container-image">
-                            <div class='image-div'>
-                                <div class='image-show'>
-                                    {% if file_path %}
+                        {% if file_path %}
+                            <div class="form-container-image">
+                                <div class='image-div'>
+                                    <div class='image-show'>
                                         <img src="{{ url_for('static', filename=file_path) }}" alt="Imagen subida">
-                                    {% else %}
-                                        <p>Selecciona una imagen</p>
-                                        <p><i class="ti ti-arrow-down"></i></p>
+                                    </div>
+                                </div>
+                                <div id="object-detection-results">
+                                    {% if objects_detected %}
+                                        <h3>Objetos detectados:</h3>
+                                        <ul>
+                                            {% for obj in objects_detected %}
+                                                <li>{{ obj }}</li>
+                                            {% endfor %}
+                                        </ul>
                                     {% endif %}
                                 </div>
                             </div>
-                            <div id="object-detection-results">
-                                {% if objects_detected %}
-                                    <h3>Objetos detectados:</h3>
-                                    <ul>
-                                        {% for obj in objects_detected %}
-                                            <li>{{ obj }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                {% else %}
-                                    <p>No se ha detectado ningún objeto.</p>
-                                {% endif %}
-                            </div>
-                        </div>
-                        <div class="div-recomendacion-main">
-                            <div class="div-recomendacion">
-                                <div class="hashtag-title">
-                                    10 Hashtags recomendados para tu publicación:
-                                </div>
-                                {% if hashtags %}
-                                    <table class="hashtags-table">
-                                        {% for i in range(0, hashtags|length, 5) %}
-                                            <tr>
-                                                {% for j in range(5) %}
-                                                    {% if i + j < hashtags|length %}
-                                                        <td>
-                                                            <div class="hashtag-content">
-                                                                <p>{{ i + j + 1 }}.</p> 
-                                                                <p>{{ hashtags[i + j] }}</p>
-                                                            </div>
-                                                        </td>
-                                                    {% endif %}
-                                                {% endfor %}
-                                            </tr>
-                                        {% endfor %}
-                                    </table>
-                                    <div class="hashtag-copy">
-                                        <div class="hashtag-copy-list" id="hashtagCopy">
-                                            {{ hashtags_copy }}
-                                        </div>
-                                        <i class="ti ti-minus-vertical"></i>
-                                        <button id="copyButton"><i class="ti ti-copy"></i></button>
+                            <div class="div-recomendacion-main">
+                                <div class="div-recomendacion">
+                                    <div class="hashtag-title">
+                                        10 Hashtags recomendados para tu publicación de Instagram
                                     </div>
-                                {% endif %}
+                                    {% if hashtags %}
+                                        <table class="hashtags-table">
+                                            {% for i in range(0, hashtags|length, 5) %}
+                                                <tr>
+                                                    {% for j in range(5) %}
+                                                        {% if i + j < hashtags|length %}
+                                                            <td>
+                                                                <div class="hashtag-content">
+                                                                    <p>{{ i + j + 1 }}.</p> 
+                                                                    <p>{{ hashtags[i + j] }}</p>
+                                                                </div>
+                                                            </td>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </tr>
+                                            {% endfor %}
+                                        </table>
+                                        <div class="hashtag-copy">
+                                            <div class="hashtag-copy-list" id="hashtagCopy">
+                                                {{ hashtags_copy }}
+                                            </div>
+                                            <i class="ti ti-minus-vertical"></i>
+                                            <button id="copyButton"><i class="ti ti-copy"></i></button>
+                                        </div>
+                                    {% endif %}
+                                </div>
                             </div>
-                        </div>
+                        {% else %}
+                            <div class="chat-message-instagram">
+                                <div class='mensaje-espera'>
+                                    <p>Introduce una imagen para detectar objetos y recomendar hashtags</p>
+                                    <p><i class="ti ti-arrow-down"></i></p>
+                                </div>
+                            </div>
+                        {% endif %}
                     </div>
                     <div>
                         <div class='image-form form-container'>
