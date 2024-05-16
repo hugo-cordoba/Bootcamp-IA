@@ -47,4 +47,36 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
+
+    // Función para copiar al portapapeles
+    function copyToClipboard() {
+        // Obtén el texto del div hashtagCopy
+        var textToCopy = document.getElementById('hashtagCopy').innerText;
+
+        // Crea un elemento temporal textarea
+        var tempTextArea = document.createElement('textarea');
+        tempTextArea.value = textToCopy;
+
+        // Añade el textarea al documento
+        document.body.appendChild(tempTextArea);
+
+        // Selecciona el contenido del textarea
+        tempTextArea.select();
+
+        // Copia el texto al portapapeles
+        document.execCommand("copy");
+
+        // Remueve el textarea temporal
+        document.body.removeChild(tempTextArea);
+
+        //  al usuario que el texto ha sido copiado
+        alert("Hashtags copiados al portapapeles");
+    }
+
+    const copyButton = document.getElementById('copyButton');
+    if (copyButton) {
+        copyButton.addEventListener('click', copyToClipboard);
+    }
+
+    
 });

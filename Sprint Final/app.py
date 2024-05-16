@@ -62,7 +62,9 @@ def recomendacion_hastags():
             
             obtener_hashtags = get_message(objects_detected)
             
-            return render_template('index.html', objects_detected=objects_detected, file_path=uploaded_image_path, hashtags=obtener_hashtags, active_section='recomendacion-hastags')
+            hashtags_copiar = ' '.join(obtener_hashtags)            
+            
+            return render_template('index.html', objects_detected=objects_detected, file_path=uploaded_image_path, hashtags=obtener_hashtags, hashtags_copy=hashtags_copiar, active_section='recomendacion-hastags')
     return render_template('index.html', image_path=None, active_section='recomendacion-hastags')
 
 if __name__ == '__main__':

@@ -68,5 +68,5 @@ def get_message(objetos_detectados):
 
     response = outputs[0][tokenized_prompt.input_ids.shape[-1]:]
     hashtags = tokenizer.decode(response, skip_special_tokens=True)
-    print(hashtags)
-    return hashtags
+    hashtags_list = hashtags.split()
+    return hashtags_list[:10]

@@ -110,24 +110,34 @@
                     </div>
                     <div class="div-recomendacion-main">
                         <div class="div-recomendacion">
-                            HASHTAGS RECOMENDADOS:
-                            <table>
-                                <tr>
-                                    {% for i in range(0, 5) %}
-                                        <th>Hashtag {{ i + 1 }}</th>
+                            <div class="hashtag-title">
+                                10 Hashtags recomendados para tu publicación:
+                            </div>
+                            {% if hashtags %}
+                                <table class="hashtags-table">
+                                    {% for i in range(0, hashtags|length, 5) %}
+                                        <tr>
+                                            {% for j in range(5) %}
+                                                {% if i + j < hashtags|length %}
+                                                    <td>
+                                                        <div class="hashtag-content">
+                                                            <p>{{ i + j + 1 }}.</p> 
+                                                            <p>{{ hashtags[i + j] }}</p>
+                                                        </div>
+                                                    </td>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </tr>
                                     {% endfor %}
-                                </tr>
-                                <tr>
-                                    {% for i in range(0, 5) %}
-                                        <td>{{ hashtags[i] }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <tr>
-                                    {% for i in range(5, 10) %}
-                                        <td>{{ hashtags[i] }}</td>
-                                    {% endfor %}
-                                </tr>
-                            </table>
+                                </table>
+                                <div class="hashtag-copy">
+                                    <div class="hashtag-copy-list" id="hashtagCopy">
+                                        {{ hashtags_copy }}
+                                    </div>
+                                    <i class="ti ti-minus-vertical"></i>
+                                    <button id="copyButton"><i class="ti ti-copy"></i></button>
+                                </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
