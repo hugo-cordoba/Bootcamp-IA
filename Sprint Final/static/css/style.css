@@ -80,20 +80,24 @@ body {
     margin-bottom: 10px;
     border: 1px solid #E5E5E5;
     background-color: white;
-
 }
 
 .sidebar-logo-square{
-    background-color: black;
+    border: solid #2F54EB;
+    color: #2F54EB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 13%;
     height: 30px;
     margin-right: 10px;
 }
 
 .sidebar-logo span {
-    color: black;
+    color: #2F54EB;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .sidebar-nav {
@@ -129,7 +133,7 @@ a.sidebar-link {
 a.sidebar-link.active,
 a.sidebar-link:hover {
     background-color: #f0eef1;
-    color: black;
+    color: #2F54EB;
     border-radius: 10px;
 }
 
@@ -228,7 +232,7 @@ a.sidebar-link:hover {
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    color: #99999a;
+    color: #2F54EB;
 }
 
 .chat-message-instagram {
