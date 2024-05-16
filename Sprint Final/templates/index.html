@@ -78,66 +78,70 @@
 
 
                 <div id="recomendacion-hastags" class="main">
-                    <div class="form-container-image">
-                        <div class='image-div'>
-                            <div class='image-show'>
-                                {% if file_path %}
-                                    <img src="{{ url_for('static', filename=file_path) }}" alt="Imagen subida">
+                    <div class="chat-display">
+                        <div class="form-container-image">
+                            <div class='image-div'>
+                                <div class='image-show'>
+                                    {% if file_path %}
+                                        <img src="{{ url_for('static', filename=file_path) }}" alt="Imagen subida">
+                                    {% else %}
+                                        <p>Selecciona una imagen</p>
+                                        <p><i class="ti ti-arrow-down"></i></p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div id="object-detection-results">
+                                {% if objects_detected %}
+                                    <h3>Objetos detectados:</h3>
+                                    <ul>
+                                        {% for obj in objects_detected %}
+                                            <li>{{ obj }}</li>
+                                        {% endfor %}
+                                    </ul>
                                 {% else %}
-                                    <p>Selecciona una imagen</p>
-                                    <p><i class="ti ti-arrow-down"></i></p>
+                                    <p>No se ha detectado ningún objeto.</p>
                                 {% endif %}
                             </div>
-                            <div class='image-form'>
-                                <form class="form_upload_image" action="/recomendacion-hastags" method="post" enctype="multipart/form-data">
-                                    <input id="input-image" type="file" name="image" accept="image/*" required>
-                                    <button id="input-image-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
-                                </form>
-                            </div>
                         </div>
-                        <div id="object-detection-results">
-                            {% if objects_detected %}
-                                <h3>Objetos detectados:</h3>
-                                <ul>
-                                    {% for obj in objects_detected %}
-                                        <li>{{ obj }}</li>
-                                    {% endfor %}
-                                </ul>
-                            {% else %}
-                                <p>No se ha detectado ningún objeto.</p>
-                            {% endif %}
+                        <div class="div-recomendacion-main">
+                            <div class="div-recomendacion">
+                                <div class="hashtag-title">
+                                    10 Hashtags recomendados para tu publicación:
+                                </div>
+                                {% if hashtags %}
+                                    <table class="hashtags-table">
+                                        {% for i in range(0, hashtags|length, 5) %}
+                                            <tr>
+                                                {% for j in range(5) %}
+                                                    {% if i + j < hashtags|length %}
+                                                        <td>
+                                                            <div class="hashtag-content">
+                                                                <p>{{ i + j + 1 }}.</p> 
+                                                                <p>{{ hashtags[i + j] }}</p>
+                                                            </div>
+                                                        </td>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </tr>
+                                        {% endfor %}
+                                    </table>
+                                    <div class="hashtag-copy">
+                                        <div class="hashtag-copy-list" id="hashtagCopy">
+                                            {{ hashtags_copy }}
+                                        </div>
+                                        <i class="ti ti-minus-vertical"></i>
+                                        <button id="copyButton"><i class="ti ti-copy"></i></button>
+                                    </div>
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
-                    <div class="div-recomendacion-main">
-                        <div class="div-recomendacion">
-                            <div class="hashtag-title">
-                                10 Hashtags recomendados para tu publicación:
-                            </div>
-                            {% if hashtags %}
-                                <table class="hashtags-table">
-                                    {% for i in range(0, hashtags|length, 5) %}
-                                        <tr>
-                                            {% for j in range(5) %}
-                                                {% if i + j < hashtags|length %}
-                                                    <td>
-                                                        <div class="hashtag-content">
-                                                            <p>{{ i + j + 1 }}.</p> 
-                                                            <p>{{ hashtags[i + j] }}</p>
-                                                        </div>
-                                                    </td>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </tr>
-                                    {% endfor %}
-                                </table>
-                                <div class="hashtag-copy">
-                                    <div class="hashtag-copy-list" id="hashtagCopy">
-                                        {{ hashtags_copy }}
-                                    </div>
-                                    <i class="ti ti-minus-vertical"></i>
-                                    <button id="copyButton"><i class="ti ti-copy"></i></button>
-                                </div>
-                            {% endif %}
+                    <div>
+                        <div class='image-form form-container'>
+                            <form class="form_upload_image form_send_prompt" action="/recomendacion-hastags" method="post" enctype="multipart/form-data">
+                                <input id="input-image" type="file" name="image" accept="image/*" required>
+                                <button id="input-button" type="submit"><i class="ti ti-corner-down-left"></i></button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -187,8 +191,6 @@
                                         </table>
                                     </div>
                                 </div>
-                                
-
                                 <table class="table-instagram">
                                     <thead>
                                         <tr>
