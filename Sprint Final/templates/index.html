@@ -10,6 +10,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/style.css">
     <script src="../static/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body data-active-section="{{ active_section }}">
@@ -27,18 +28,21 @@
             <!-- LISTA DE APLICACIONES -->
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
+                    <div class="active-blue-bar"></div>
                     <a href="#generar-imagenes" class="sidebar-link">
                         <i class="ti ti-photo-scan"></i>
                         <span>Generar imagenes con texto</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
+                    <div class="active-blue-bar"></div>
                     <a href="#recomendacion-hastags" class="sidebar-link">
                         <i class="ti ti-ad"></i>
                         <span>Recomendacion de hastags</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
+                    <div class="active-blue-bar"></div>
                     <a href="#analisis-comentarios" class="sidebar-link">
                         <i class="ti ti-presentation-analytics"></i>
                         <span>Analisis de comentarios</span>
@@ -94,6 +98,7 @@
                                                 <li>{{ obj }}</li>
                                             {% endfor %}
                                         </ul>
+                                        <canvas id="pieChart"></canvas>
                                     {% endif %}
                                 </div>
                             </div>

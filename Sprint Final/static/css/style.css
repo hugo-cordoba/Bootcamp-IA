@@ -109,15 +109,17 @@ body {
 }
 
 .sidebar-item {
-    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 a.sidebar-link {
     padding: 0.5rem 0.7rem;
-    width: 100%;
+    width: 95%;
     color: black;
     font-size: 0.85rem;
     font-weight: 600;
@@ -135,6 +137,19 @@ a.sidebar-link:hover {
     background-color: #f0eef1;
     color: #2F54EB;
     border-radius: 10px;
+}
+
+.sidebar-item .active-blue-bar {
+    display: none;
+}
+
+.sidebar-item.active .active-blue-bar,
+.sidebar-item:hover .active-blue-bar {
+    display: block;
+    border: solid #2F54EB;
+    margin: 5px;
+    border-radius: 10px;
+    height: 25px;
 }
 
 .chat-display {

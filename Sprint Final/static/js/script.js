@@ -40,10 +40,17 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateActiveLink(activeId) {
         links.forEach(link => {
             const hrefSubstr = link.getAttribute('href').substring(1);
+            const sidebarItem = link.closest('.sidebar-item');
             if(hrefSubstr === activeId) {
                 link.classList.add('active');
+                if (sidebarItem) {
+                    sidebarItem.classList.add('active');
+                }
             } else {
                 link.classList.remove('active');
+                if (sidebarItem) {
+                    sidebarItem.classList.remove('active');
+                }
             }
         });
     }
@@ -77,6 +84,4 @@ document.addEventListener("DOMContentLoaded", function() {
     if (copyButton) {
         copyButton.addEventListener('click', copyToClipboard);
     }
-
-    
 });
