@@ -82,6 +82,24 @@ https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis
 
 https://huggingface.co/datasets/arbml/emoji_sentiment_lexicon
 
+**Tecnologia utilizada**
+
+<div>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/keras/keras-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/pytorch/pytorch-original.svg" width="45px" height="45px">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" width="45px" height="45px">
+    <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="45px" height="45px">
+</div>   
 
 ## Posibles mejoras
 
@@ -159,23 +177,3 @@ path/en/tu/equipo/Sprint-Final$
 conda activate thefreeai
 flask run
 ```
-
-## Tecnologia utilizada
-<div>
-    <div>
-        <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/keras/keras-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/pytorch/pytorch-original.svg" width="45px" height="45px">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" width="45px" height="45px">
-        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="45px" height="45px">
-    </div>    
-</div>
