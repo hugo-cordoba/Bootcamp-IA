@@ -5,7 +5,7 @@
 - [Modelos y datos](#modelos-y-datos)
 - [Posibles mejoras](#posibles-mejoras)
 - [Instrucciones para crear el entorno y ejecutar el experimento base](#instrucciones-para-crear-el-entorno-y-ejecutar-el-experimento-base)
-
+- [Tecnologia utilizada](#tecnologia-utilizada)
 
 
 ## Introducción
@@ -159,3 +159,17 @@ path/en/tu/equipo/Sprint-Final$
 conda activate thefreeai
 flask run
 ```
+
+## Tecnologia utilizada
+<div>
+    <div>
+        <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original.svg" width="45px" height="45px">
+        <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" width="45px" height="45px">
+        <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" width="45px" height="45px">
+        <img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original.svg" width="45px" height="45px">
+        <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" width="45px" height="45px">
+        <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" width="45px" height="45px">
+        <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original.svg" width="45px" height="45px">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="45px" height="45px">
+    </div>    
+</div>
