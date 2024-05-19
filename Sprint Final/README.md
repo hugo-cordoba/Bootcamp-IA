@@ -1,5 +1,9 @@
 # SPRINT FINAL - VIBE TRACKER AI
 
+<p align="center">
+    <img src="./static/img/vibe_computer.png" alt="alt text" width="500">
+</p>
+
 - [Introducción](#introducción)
 - [Explicación de la aplicación](#explicación-de-la-aplicación)
 - [Modelos y datos](#modelos-y-datos)
