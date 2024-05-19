@@ -1,8 +1,8 @@
 # SPRINT FINAL - VIBE TRACKER AI
 
 - [Introducción](#introducción)
-- [Modelos y datos](#modelos-y-datos)
 - [Explicación de la aplicación](#explicación-de-la-aplicación)
+- [Modelos y datos](#modelos-y-datos)
 - [Posibles mejoras](#posibles-mejoras)
 - [Instrucciones para crear el entorno y ejecutar el experimento base](#instrucciones-para-crear-el-entorno-y-ejecutar-el-experimento-base)
 
@@ -40,7 +40,23 @@ Evalúa el sentimiento de los comentarios en una publicación de Instagram, prop
     <img src="./static/img/analisis_comentarios.png" alt="alt text" width="500">
 </p>
 
+## Explicación de la aplicación
 
+La aplicación ofrece una serie de funcionalidades diseñadas para facilitar el análisis de datos de Instagram utilizando inteligencia artificial. Consta de tres módulos principales, cada uno abordando una tarea específica:
+
+**Generación de Imágenes:**
+
+Este módulo permite a los usuarios generar imágenes a partir de un prompt introducido por el usuario. Utilizando el modelo "stabilityai/sdxl-turbo", la aplicación emplea inteligencia artificial para crear imágenes realistas y creativas basadas en la entrada proporcionada.
+
+**Detección de Objetos y Recomendación de Hashtags:**
+
+En este módulo, los usuarios pueden cargar una imagen y utilizar el modelo "facebook/detr-resnet-50" para detectar objetos presentes en la imagen. Además, utilizando el modelo "nvidia/Llama3-ChatQA-1.5-8B" se proporcionan recomendaciones de hashtags relevantes basadas en los objetos identificados. Esto ayuda a optimizar la visibilidad y el alcance de las publicaciones en Instagram.
+
+**Análisis de Sentimientos en Comentarios:**
+
+El tercer módulo de la aplicación se centra en el análisis de sentimientos en los comentarios de una publicación de Instagram. Para utilizar esta función, los usuarios deben proporcionar la URL de la publicación de Instagram en cuestión. La aplicación utiliza el Modelo de Red Neuronal Secuencial, entrenado con diferentes datasets, uno especifico de emojis y otro de comentarios de otra plataforma de contenido, para evaluar el sentimiento general de los comentarios, clasificándolos en categorías de positivo, neutro y negativo.
+
+Cada uno de estos módulos se centra en aspectos específicos del análisis de datos de Instagram y utiliza modelos de inteligencia artificial entrenados para proporcionar resultados precisos y útiles. Esta diversidad de funcionalidades permite a los usuarios obtener información valiosa sobre su contenido en Instagram, facilitando la toma de decisiones informadas en su estrategia de redes sociales.
 
 ## Modelos y datos
 
@@ -66,23 +82,6 @@ https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis
 
 https://huggingface.co/datasets/arbml/emoji_sentiment_lexicon
 
-## Explicación de la aplicación
-
-La aplicación ofrece una serie de funcionalidades diseñadas para facilitar el análisis de datos de Instagram utilizando inteligencia artificial. Consta de tres módulos principales, cada uno abordando una tarea específica:
-
-**Generación de Imágenes:**
-
-Este módulo permite a los usuarios generar imágenes a partir de un prompt introducido por el usuario. Utilizando el modelo "stabilityai/sdxl-turbo", la aplicación emplea inteligencia artificial para crear imágenes realistas y creativas basadas en la entrada proporcionada.
-
-**Detección de Objetos y Recomendación de Hashtags:**
-
-En este módulo, los usuarios pueden cargar una imagen y utilizar el modelo "facebook/detr-resnet-50" para detectar objetos presentes en la imagen. Además, utilizando el modelo "nvidia/Llama3-ChatQA-1.5-8B" se proporcionan recomendaciones de hashtags relevantes basadas en los objetos identificados. Esto ayuda a optimizar la visibilidad y el alcance de las publicaciones en Instagram.
-
-**Análisis de Sentimientos en Comentarios:**
-
-El tercer módulo de la aplicación se centra en el análisis de sentimientos en los comentarios de una publicación de Instagram. Para utilizar esta función, los usuarios deben proporcionar la URL de la publicación de Instagram en cuestión. La aplicación utiliza el Modelo de Red Neuronal Secuencial, entrenado con diferentes datasets, uno especifico de emojis y otro de comentarios de otra plataforma de contenido, para evaluar el sentimiento general de los comentarios, clasificándolos en categorías de positivo, neutro y negativo.
-
-Cada uno de estos módulos se centra en aspectos específicos del análisis de datos de Instagram y utiliza modelos de inteligencia artificial entrenados para proporcionar resultados precisos y útiles. Esta diversidad de funcionalidades permite a los usuarios obtener información valiosa sobre su contenido en Instagram, facilitando la toma de decisiones informadas en su estrategia de redes sociales.
 
 ## Posibles mejoras
 
