@@ -14,12 +14,11 @@
 
 ## Introducción
 
-Vibe Tracker AI es una aplicación de análisis de datos de Instagram, que utiliza inteligencia artificial para proporcionar diversas funcionalidades que facilitan la comprensión y optimización del contenido en esta plataforma. Con tres módulos principales, ofrece capacidades de generación de imágenes, detección de objetos y análisis de sentimientos en los comentarios de las publicaciones. En la aplicación encontramos tres funcionalidades:
+Vibe Tracker AI es una aplicación de análisis de datos de Instagram, que utiliza inteligencia artificial para proporcionar diversas funcionalidades que facilitan la comprensión y optimización del contenido en esta plataforma. Con tres módulos principales, ofrece capacidades de generación de imágenes, detección de objetos y recomendación de hashtags basados en los objetos detectados y análisis de sentimientos en los comentarios de las publicaciones. En la aplicación encontramos tres funcionalidades:
 
 **Generación de Imágenes:**
 
 Permite generar imágenes a partir de un prompt proporcionado por el usuario, utilizando modelos de inteligencia artificial entrenados para crear imágenes realistas y creativas.
-Detección de Objetos y Recomendación de Hashtags:
 
 <p align="center">
     <img src="./static/img/crear_imagenes.png" alt="alt text" width="500">
@@ -29,7 +28,6 @@ Detección de Objetos y Recomendación de Hashtags:
 **Recomendacion de hastags**
 
 Analiza imágenes para detectar objetos presentes en ellas, y recomienda hashtags relevantes basados en los objetos identificados. Esto ayuda a optimizar la visibilidad y el alcance de las publicaciones en Instagram.
-Análisis de Sentimientos en Comentarios:
 
 <p align="center">
     <img src="./static/img/recomendar_hashtags.png" alt="alt text" width="500">
