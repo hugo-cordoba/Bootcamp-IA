@@ -48,6 +48,10 @@ Evalúa el sentimiento de los comentarios en una publicación de Instagram, prop
 
 La aplicación ofrece una serie de funcionalidades diseñadas para facilitar el análisis de datos de Instagram utilizando inteligencia artificial. Consta de tres módulos principales, cada uno abordando una tarea específica:
 
+<p align="center">
+    <img src="./static/img/diagrama.png" alt="alt text">
+</p>
+
 **Generación de Imágenes:**
 
 Este módulo permite a los usuarios generar imágenes a partir de un prompt introducido por el usuario. Utilizando el modelo "stabilityai/sdxl-turbo", la aplicación emplea inteligencia artificial para crear imágenes realistas y creativas basadas en la entrada proporcionada.
