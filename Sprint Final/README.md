@@ -7,9 +7,9 @@
 - [Introducción](#introducción)
 - [Explicación de la aplicación](#explicación-de-la-aplicación)
 - [Modelos y datos](#modelos-y-datos)
+- [Explicación de la estructura del proyecto](#explicación-de-la-estructura-del-proyecto)
 - [Posibles mejoras](#posibles-mejoras)
 - [Instrucciones para crear el entorno y ejecutar el experimento base](#instrucciones-para-crear-el-entorno-y-ejecutar-el-experimento-base)
-- [Explicación de la estructura del proyecto](#explicación-de-la-estructura-del-proyecto)
 
 
 ## Introducción
@@ -109,76 +109,6 @@ https://huggingface.co/datasets/arbml/emoji_sentiment_lexicon
     <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="45px" height="45px">
 </div>   
 
-## Posibles mejoras
-
-A pesar de las funcionalidades existentes, siempre hay espacio para mejorar y expandir la aplicación. A continuación, se presentan algunas áreas donde se podrían realizar mejoras significativas:
-
-**Mejora del Rendimiento de los Modelos:**
-
-Se puede explorar la optimización y la compresión de los modelos de inteligencia artificial utilizados para mejorar su rendimiento y eficiencia computacional. Esto podría implicar la reentrenamiento de los modelos con conjuntos de datos adicionales o la implementación de técnicas de optimización específicas.
-
-**Mejora de la Carga de Comentarios de Instagram y Conexión con la API:**
-
-En lugar de depender de APIs externas para cargar los comentarios de Instagram, se podría considerar la integración directa con la API de Instagram. Esto permitiría una carga más rápida y eficiente de los datos, así como un control más granular sobre la obtención de información de las publicaciones.
-
-**Incorporación de Más Funcionalidades:**
-
-Se podría ampliar la gama de funcionalidades ofrecidas por la aplicación para abordar diversas necesidades y requisitos de los usuarios. Esto podría incluir la integración de nuevas capacidades de análisis de datos, como el análisis de la actividad de los seguidores, la identificación de tendencias emergentes o la generación de informes analíticos detallados.
-
-## Instrucciones para crear el entorno y ejecutar el experimento base
-
-
-### Instalar git
-
-Los usuarios de Linux y Mac ya deberían tener `git` instalado de fábrica (lo podéis comprobar ejecutando `git --version`
-en la consola). Si no tienes git instalado, puedes hacerlo siguiendo los pasos 
-de [este link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-
-### Clona el repositorio en tu ordendador.
-
-Clona este repositorio en tu ordenador para tener el codigo de la apliacion Vibe Tracker AI.
-
-### Instalar conda (y Python)
-
-Si no tienes `conda` instalado, instala `miniconda` (una distribución de conda) siguiendo
-los pasos según tu sistema operativo indicados en la sección *Quick command line install* en 
-[este link](https://docs.anaconda.com/free/miniconda/#quick-command-line-install).
-
-Además esto instalará Python en tu equipo si no lo tienes.
-
-### Instala el entorno de Python
-
-(estos pasos los puedes hacer desde la propia terminal de VSCode)
-
-Cierra la terminal y abre otra (esto es importante para que tengan efecto los cambios tras instalar `conda`).
-
-Cambia a la carpeta donde has clonado este repositorio y ejecuta:
-
-
-**Windows**:
-
-```bash
-path/en/tu/equipo/bootcamp-ia-sprint-4$ 
-conda env create -f env.yml
-conda activate vibetrackerai
-```
-
-Nota para usuarios de **Windows**, dependiendo de vuestra versión, puede que la terminal no reconozca el comando `conda`. 
-En ese caso tenéis que ejecutar todos los comandos deste el `Anaconda Prompt Shell` (lo podéis encontrar buscando en el
-menú de inicio una vez instalado Anaconda).
-
-
-
-### Lanza la aplicacion Flask
-
-En una terminal en el directorio donde está el repositorio, ejecuta:
-
-```bash
-path/en/tu/equipo/Sprint-Final$ 
-conda activate vibetrackerai
-flask run
-```
-
 ## Explicación de la estructura del proyecto
 
 ```
@@ -261,3 +191,73 @@ Sprint Final/
 **env.yml**
 
 - En este fichero encontraremos las dependencias necesarias para poder ejecutar el proyecto de manera correcta en un entorno con Conda.
+
+## Posibles mejoras
+
+A pesar de las funcionalidades existentes, siempre hay espacio para mejorar y expandir la aplicación. A continuación, se presentan algunas áreas donde se podrían realizar mejoras significativas:
+
+**Mejora del Rendimiento de los Modelos:**
+
+Se puede explorar la optimización y la compresión de los modelos de inteligencia artificial utilizados para mejorar su rendimiento y eficiencia computacional. Esto podría implicar la reentrenamiento de los modelos con conjuntos de datos adicionales o la implementación de técnicas de optimización específicas.
+
+**Mejora de la Carga de Comentarios de Instagram y Conexión con la API:**
+
+En lugar de depender de APIs externas para cargar los comentarios de Instagram, se podría considerar la integración directa con la API de Instagram. Esto permitiría una carga más rápida y eficiente de los datos, así como un control más granular sobre la obtención de información de las publicaciones.
+
+**Incorporación de Más Funcionalidades:**
+
+Se podría ampliar la gama de funcionalidades ofrecidas por la aplicación para abordar diversas necesidades y requisitos de los usuarios. Esto podría incluir la integración de nuevas capacidades de análisis de datos, como el análisis de la actividad de los seguidores, la identificación de tendencias emergentes o la generación de informes analíticos detallados.
+
+## Instrucciones para crear el entorno y ejecutar el experimento base
+
+
+### Instalar git
+
+Los usuarios de Linux y Mac ya deberían tener `git` instalado de fábrica (lo podéis comprobar ejecutando `git --version`
+en la consola). Si no tienes git instalado, puedes hacerlo siguiendo los pasos 
+de [este link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+### Clona el repositorio en tu ordendador.
+
+Clona este repositorio en tu ordenador para tener el codigo de la apliacion Vibe Tracker AI.
+
+### Instalar conda (y Python)
+
+Si no tienes `conda` instalado, instala `miniconda` (una distribución de conda) siguiendo
+los pasos según tu sistema operativo indicados en la sección *Quick command line install* en 
+[este link](https://docs.anaconda.com/free/miniconda/#quick-command-line-install).
+
+Además esto instalará Python en tu equipo si no lo tienes.
+
+### Instala el entorno de Python
+
+(estos pasos los puedes hacer desde la propia terminal de VSCode)
+
+Cierra la terminal y abre otra (esto es importante para que tengan efecto los cambios tras instalar `conda`).
+
+Cambia a la carpeta donde has clonado este repositorio y ejecuta:
+
+
+**Windows**:
+
+```bash
+path/en/tu/equipo/bootcamp-ia-sprint-4$ 
+conda env create -f env.yml
+conda activate vibetrackerai
+```
+
+Nota para usuarios de **Windows**, dependiendo de vuestra versión, puede que la terminal no reconozca el comando `conda`. 
+En ese caso tenéis que ejecutar todos los comandos deste el `Anaconda Prompt Shell` (lo podéis encontrar buscando en el
+menú de inicio una vez instalado Anaconda).
+
+
+
+### Lanza la aplicacion Flask
+
+En una terminal en el directorio donde está el repositorio, ejecuta:
+
+```bash
+path/en/tu/equipo/Sprint-Final$ 
+conda activate vibetrackerai
+flask run
+```
