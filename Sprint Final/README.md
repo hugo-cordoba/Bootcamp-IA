@@ -181,17 +181,83 @@ flask run
 
 ## Explicación de la estructura del proyecto
 
-- datasets - ["Dentro encontraremos los datasets utilizados para entrenar los modelos de analisis de sentimientos de los comentarios de instagram."]
-- models - ["Dentro encontraremos los ficheros .py, que contienen la logica de cada menu de la aplicación."]
-    - resources - ["Además, en esta carpeta, se guarda el tokenicer, el modelo en formato .keras y el el max_lenght, para poder cargar el modelo de manera más rápida y mejorar el rendimiento y la velocidad de la app."]
-- playground - ["Dentro encontraremos los jupiter notebooks utilizados para hacer pruebas sobre los modelos utilizados. Su lógica, no aplica directamente a la aplicación, pero han sido las pruebas previas al desarrollo del codigo python de los ficheros .py/"]
-- static - ["En esta carpeta, encontraremos varias carpetas con diversas funcionalidades."]
-    - css - ["En esta carpeta se situa el codigo css utilizado para el diseño."]
-    - images - ["En esta carpeta se guardaran las imagenes generadas o cargadas en los modelos."]
-    - img - ["En esta carpeta se encuentran recursos utilizados en el README o en la app."]
-    - js - ["En esta carpeta se situa el codigo js utilizado para diversas funcionalidades y mejoras de usabilidad."]
-- templates - ["En esta carpeta se situa el codigo html utilizado para la estructura del proyecto"]
-- .gitignore - ["Este fichero .gitignore, evita que se suban los archivos __pycache__ al repositorio de github."]
-- app.py - ["En este fichero encontraremos el codigo python necesario para poder ejecutar de manera correcta la aplicacion con Flask."]
-- env.yml - ["En este fichero encontraremos las dependencias necesarias para poder ejecutar el proyecto de manera correcta en un entorno con Conda."]
-- README.md - ["Este es el fichero Readme.md"] 
+```
+Sprint Final/
+├── datasets/
+│ └── emoji_sentiment_dataset.csv
+│ └── Twitter_Data.csv
+├── models/
+    │ └── resources/
+    │ └── analisis_comentarios.py
+    │ └── detectar_objetos.py
+    │ └── generar_imagenes.py
+├── playground/
+├── static/
+    │ └── css/
+        │ └── style_error.css
+        │ └── style.css
+    │ └── images/
+    │ └── img/
+    │ └── js/
+        │ └── script.js
+├── templates/
+    │ └── error.html
+    │ └── index.html
+├── .gitignore/
+├── app.py/
+├── env.yml/
+├── README.md/ 
+```
+
+**datasets/**
+
+- Dentro encontraremos los datasets utilizados para entrenar los modelos de analisis de sentimientos de los comentarios de instagram.
+
+**models/**
+
+- Dentro encontraremos los ficheros '.py', que contienen la logica de cada menu de la aplicación.
+
+    - **resources/**
+
+    - Además, en esta carpeta, se guarda el tokenicer, el modelo en formato .keras y el el max_lenght, para poder cargar el modelo de manera más rápida y mejorar el rendimiento y la velocidad de la app.
+
+**playground/**
+
+- Dentro encontraremos los jupiter notebooks utilizados para hacer pruebas sobre los modelos utilizados. Su lógica, no aplica directamente a la aplicación, pero han sido las pruebas previas al desarrollo del codigo python de los ficheros '.py'.
+
+**static/**
+
+- En esta carpeta, encontraremos varias carpetas con diversas funcionalidades
+
+    **css/**
+
+    - En esta carpeta se situa el codigo css utilizado para el diseño.
+
+
+    **images/**
+
+    - En esta carpeta se guardaran las imagenes generadas o cargadas en los modelos.
+
+    **img/**
+
+    - En esta carpeta se encuentran recursos utilizados en el README o en la app.
+
+    **js/**
+
+    - En esta carpeta se situa el codigo js utilizado para diversas funcionalidades y mejoras de usabilidad.
+
+**templates/**
+
+- En esta carpeta se situa el codigo html utilizado para la estructura del proyecto
+
+**.gitignore**
+
+- Este fichero .gitignore, evita que se suban los archivos __pycache__ al repositorio de github.
+
+**app.py**
+
+- En este fichero encontraremos el codigo python necesario para poder ejecutar de manera correcta la aplicacion con Flask.
+
+**env.yml**
+
+- En este fichero encontraremos las dependencias necesarias para poder ejecutar el proyecto de manera correcta en un entorno con Conda.
