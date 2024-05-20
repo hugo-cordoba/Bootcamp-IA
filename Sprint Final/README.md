@@ -1,7 +1,7 @@
 # SPRINT FINAL - VIBE TRACKER AI
 
 <p align="center">
-    <img src="./static/img/vibe_computer.png" alt="alt text" width="500">
+    <img src="./static/img/banner.png" alt="alt text">
 </p>
 
 - [Introducción](#introducción)
