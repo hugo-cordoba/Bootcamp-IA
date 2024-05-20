@@ -150,20 +150,13 @@ Cierra la terminal y abre otra (esto es importante para que tengan efecto los ca
 
 Cambia a la carpeta donde has clonado este repositorio y ejecuta:
 
-Si tienes **Linux o Mac**:
+
+**Windows**:
 
 ```bash
 path/en/tu/equipo/bootcamp-ia-sprint-4$ 
-conda env create -f environment.yml
-conda activate movies
-```
-
-Si tienes **Windows**:
-
-```bash
-path/en/tu/equipo/bootcamp-ia-sprint-4$ 
-conda env create -f env_windows.yml
-conda activate movies
+conda env create -f env.yml
+conda activate vibetrackerai
 ```
 
 Nota para usuarios de **Windows**, dependiendo de vuestra versión, puede que la terminal no reconozca el comando `conda`. 
@@ -178,6 +171,6 @@ En una terminal en el directorio donde está el repositorio, ejecuta:
 
 ```bash
 path/en/tu/equipo/Sprint-Final$ 
-conda activate thefreeai
+conda activate vibetrackerai
 flask run
 ```
