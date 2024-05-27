@@ -70,15 +70,19 @@ Cada uno de estos módulos se centra en aspectos específicos del análisis de d
 
 Este modelo es utilizado para generar imágenes a partir de un prompt proporcionado por el usuario. Proporciona capacidades avanzadas de generación de imágenes utilizando inteligencia artificial.
 
-**[nvidia/Llama3-ChatQA-1.5-8B](https://huggingface.co/nvidia/Llama3-ChatQA-1.5-8B)**
-
-Utilizado para la detección de objetos en imágenes y la recomendación de hashtags relevantes. Este modelo es capaz de identificar objetos en imágenes con alta precisión, facilitando la optimización del contenido en Instagram.
-
 **[facebook/detr-resnet-50](https://huggingface.co/meta-llama/Meta-Llama-3-8B)**
 
-Empleado para el análisis de sentimientos en los comentarios de las publicaciones de Instagram. Este modelo utiliza redes neuronales para evaluar el sentimiento de los comentarios y proporciona información sobre la percepción general del contenido por parte de los usuarios.
+Utilizado para la detección de objetos en imágenes. Este modelo es capaz de identificar objetos en imágenes con alta precisión.
+
+
+**[nvidia/Llama3-ChatQA-1.5-8B](https://huggingface.co/nvidia/Llama3-ChatQA-1.5-8B)**
+
+Utilizando la lista de objetos detectados en la imagen, devuelve una recomendación de hashtags relevantes. Llama3-ChatQA-1.5, destaca en la respuesta a preguntas conversacionales (QA) y en la generación aumentada por recuperación (RAG). Gracias a la lista de objetos detectados, recomienda hashtagas para la publicacion de instagram. 
+
 
 **Modelo de Red Neuronal Secuencial (Sequential)**
+
+Empleado para el análisis de sentimientos en los comentarios de las publicaciones de Instagram. Este modelo utiliza redes neuronales para evaluar el sentimiento de los comentarios y proporciona información sobre la percepción general del contenido por parte de los usuarios.
 
 Una arquitectura de red neuronal secuencial utilizada para el análisis de sentimientos en los comentarios de las publicaciones de Instagram. Este modelo está construido con capas de Embedding, LSTM, Dropout y Dense, y está diseñado para clasificar los comentarios en tres categorías de sentimiento: positivo, neutro y negativo.
 
